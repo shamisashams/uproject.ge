@@ -24,7 +24,7 @@
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">Read More</button>--}}
 {{--                        </a>--}}
-                        <a href="contact.html">
+                        <a href="{{route('contact',app()->getLocale())}}">
                             <button class="main_btn contact">Contact Us</button>
                         </a>
                     </div>
@@ -51,7 +51,7 @@
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">Read More</button>--}}
 {{--                        </a>--}}
-                        <a href="contact.html">
+                        <a href="{{route('contact',app()->getLocale())}}">
                             <button class="main_btn contact">Contact Us</button>
                         </a>
                     </div>
@@ -78,7 +78,7 @@
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">Read More</button>--}}
 {{--                        </a>--}}
-                        <a href="contact.html">
+                        <a href="{{route('contact',app()->getLocale())}}">
                             <button class="main_btn contact">Contact Us</button>
                         </a>
                     </div>
