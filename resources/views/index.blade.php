@@ -21,9 +21,9 @@
                         text ever since the 1500s,
                     </div>
                     <div class="hero_btns flex">
-                        <a href="#">
-                            <button class="main_btn read_more">Read More</button>
-                        </a>
+{{--                        <a href="#">--}}
+{{--                            <button class="main_btn read_more">Read More</button>--}}
+{{--                        </a>--}}
                         <a href="contact.html">
                             <button class="main_btn contact">Contact Us</button>
                         </a>
@@ -48,9 +48,9 @@
                         pariatur amet?
                     </div>
                     <div class="hero_btns flex">
-                        <a href="#">
-                            <button class="main_btn read_more">Read More</button>
-                        </a>
+{{--                        <a href="#">--}}
+{{--                            <button class="main_btn read_more">Read More</button>--}}
+{{--                        </a>--}}
                         <a href="contact.html">
                             <button class="main_btn contact">Contact Us</button>
                         </a>
@@ -75,9 +75,9 @@
                         1500s,
                     </div>
                     <div class="hero_btns flex">
-                        <a href="#">
-                            <button class="main_btn read_more">Read More</button>
-                        </a>
+{{--                        <a href="#">--}}
+{{--                            <button class="main_btn read_more">Read More</button>--}}
+{{--                        </a>--}}
                         <a href="contact.html">
                             <button class="main_btn contact">Contact Us</button>
                         </a>
@@ -266,7 +266,7 @@
             of type and scrambled it to make a type specimen book. It has survived
             not only five centuries,
         </div>
-        <a href="#">
+        <a href="{{route('about',app()->getLocale())}}">
             <button class="main_btn">Read More</button>
         </a>
     </div>
@@ -303,7 +303,7 @@
             <div class="title_bg bold" style="opacity: 0.21">PROJECTS</div>
             <div class="title bold" style="color: #f3f3f3">PROJECTS</div>
         </div>
-        <a href="projects.html">
+        <a href="{{route('projects',app()->getLocale())}}">
             <button class="view_all_btn dark">View All</button>
         </a>
     </div>
@@ -455,7 +455,7 @@
             <div class="title_bg bold">Gallery</div>
             <div class="title bold main_blue">Gallery</div>
         </div>
-        <a href="projects.html">
+        <a href="{{route('projects',app()->getLocale())}}">
             <button class="view_all_btn">View All</button>
         </a>
     </div>
@@ -501,14 +501,13 @@
                 <div class="title_bg bold">Blog</div>
                 <div class="title bold main_blue">Blog</div>
             </div>
-            <a href="{{ route('index') }}">
+            <a href="{{ route('blogIndex',app()->getLocale()) }}">
                 <button class="view_all_btn">View All</button>
             </a>
         </div>
-       
         <div class="blog_slider">
             @foreach($blogs as $blog):
-            
+
                 @if(count($blog->files) === 0)
                     @continue;
                 @endif
@@ -526,7 +525,7 @@
             </div>
             @endforeach
         </div>
-        
+
     </div>
     <button class="arr" id="prev_blog">
         <svg
@@ -590,7 +589,7 @@
             <div class="title_bg bold">Team</div>
             <div class="title bold main_blue">Team</div>
         </div>
-        <a href="team.html">
+        <a href="{{route('team',app()->getLocale())}}">
             <button class="view_all_btn">View All</button>
         </a>
     </div>
