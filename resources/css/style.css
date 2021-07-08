@@ -933,6 +933,13 @@ img {
 .team_page.team_grid .img_overlay {
     max-height: 546px;
 }
+.team_page.team_grid .caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+}
 
 /* about.html */
 .about_page .text {

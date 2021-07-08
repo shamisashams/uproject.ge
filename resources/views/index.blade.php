@@ -595,16 +595,16 @@
     </div>
     <div class="team_list flex">
         <div class="img_overlay">
-            <img src="{{ asset('storage/images/team/1.png') }}" alt="" />
+            <img src="img/team/1.jpg" alt="" />
         </div>
         <div class="img_overlay">
-            <img src="{{ asset('storage/images/team/2.png') }}" alt="" />
+            <img src="img/team/2.jpg" alt="" />
         </div>
         <div class="img_overlay">
-            <img src="{{ asset('storage/images/team/3.png') }}" alt="" />
+            <img src="img/team/7.jpg" alt="" />
         </div>
         <div class="img_overlay">
-            <img src="{{ asset('storage/images/team/4.png') }}" alt="" />
+            <img src="img/team/11.jpg" alt="" />
         </div>
     </div>
 </section>
