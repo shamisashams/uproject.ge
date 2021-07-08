@@ -18,40 +18,40 @@
 </section>
 
 <section class="team_page wrapper team_grid margin_bottom">
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/1.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/2.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/3.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/4.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/1.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/2.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/3.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/4.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/1.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/2.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/3.png" alt="" />
     </div>
-    <div class="images_overlay">
+    <div class="img_overlay">
         <img src="/storage/images/team/4.png" alt="" />
     </div>
 </section>

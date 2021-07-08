@@ -250,7 +250,7 @@
 </section>
 
 <section class="who_we_are flex wrapper margin_bottom">
-    <div class="image_overlay">
+    <div class="img_overlay">
         <img class="image_fit" src="{{ asset('storage/images/home/1.png') }}" alt="" />
     </div>
     <div class="div">
@@ -310,8 +310,23 @@
     <div class="project_slider_track">
         <div class="projects_slider flex">
             <div class="item">
-                <div class="image_overlay">
-                    <img src="{{ asset('storage/images/projects/1.png') }}" alt="" />
+                <div class="img_overlay">
+                    <img src="img/projects/1/3.jpg" alt="" />
+                </div>
+                <div class="category bold">Category dfgh</div>
+                <div class="name">Lorem Ipsum is simply</div>
+                <div class="dc">
+                    Lorem Ipsum is simply dummy text of the printing and typesetting
+                    industry. Lorem Ipsum has been the industry's standard dummy text
+                    ever since
+                </div>
+                <a href="project-view.html" class="read_more_rotate medium"
+                   >Read More</a
+                >
+            </div>
+            <div class="item">
+                <div class="img_overlay">
+                    <img src="img/projects/2/4.jpg" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -325,8 +340,8 @@
                 >
             </div>
             <div class="item">
-                <div class="image_overlay">
-                    <img src="{{ asset('storage/images/projects/2.png') }}" alt="" />
+                <div class="img_overlay">
+                    <img src="img/projects/3/2.jpg" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -340,8 +355,8 @@
                 >
             </div>
             <div class="item">
-                <div class="image_overlay">
-                    <img src="{{ asset('storage/images/projects/3.png') }}" alt="" />
+                <div class="img_overlay">
+                    <img src="img/projects/4/6.jpg" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -355,8 +370,8 @@
                 >
             </div>
             <div class="item">
-                <div class="image_overlay">
-                    <img src="{{ asset('storage/images/projects/4.png') }}" alt="" />
+                <div class="img_overlay">
+                    <img src="img/projects/5/3.jpg" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -370,8 +385,8 @@
                 >
             </div>
             <div class="item">
-                <div class="image_overlay">
-                    <img src="{{ asset('storage/images/projects/2.png') }}" alt="" />
+                <div class="img_overlay">
+                    <img src="img/projects/7/1.jpg" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -445,36 +460,36 @@
         </a>
     </div>
     <div class="gallery_grid">
-        <div class="g_item image_overlay">
-            <img src="{{ asset('storage/images/gallery/1.png') }}" alt="" />
+        <div class="g_item img_overlay">
+            <img src="img/projects/1/1.jpg" alt="" />
         </div>
-        <div class="g_item image_overlay">
-            <img src="{{ asset('storage/images/gallery/2.png') }}" alt="" />
+        <div class="g_item img_overlay">
+            <img src="img/projects/2/1.jpg" alt="" />
         </div>
-        <div class="g_item image_overlay">
-            <img src="{{ asset('storage/images/gallery/3.png') }}" alt="" />
-        </div>
-        <div class="g_item flex">
-            <div class="g_item image_overlay">
-                <img src="{{ asset('storage/images/gallery/4.png') }}" alt="" />
-            </div>
-            <div class="g_item image_overlay">
-                <img src="{{ asset('storage/images/gallery/5.png') }}" alt="" />
-            </div>
+        <div class="g_item img_overlay">
+            <img src="img/projects/3/1.jpg" alt="" />
         </div>
         <div class="g_item flex">
-            <div class="g_item image_overlay">
-                <img src="{{ asset('storage/images/gallery/6.png') }}" alt="" />
+            <div class="g_item img_overlay">
+                <img src="img/projects/3/3.jpg" alt="" />
             </div>
-            <div class="g_item image_overlay">
-                <img src="{{ asset('storage/images/gallery/7.png') }}" alt="" />
+            <div class="g_item img_overlay">
+                <img src="img/projects/4/5.jpg" alt="" />
             </div>
         </div>
-        <div class="g_item image_overlay">
-            <img src="{{ asset('storage/images/gallery/8.png') }}" alt="" />
+        <div class="g_item flex">
+            <div class="g_item img_overlay">
+                <img src="img/projects/4/6.jpg" alt="" />
+            </div>
+            <div class="g_item img_overlay">
+                <img src="img/projects/7/1.jpg" alt="" />
+            </div>
         </div>
-        <div class="g_item image_overlay">
-            <img src="{{ asset('storage/images/gallery/9.png') }}" alt="" />
+        <div class="g_item img_overlay">
+            <img src="img/projects/1/3.jpg" alt="" />
+        </div>
+        <div class="g_item img_overlay">
+            <img src="img/projects/7/2.jpg" alt="" />
         </div>
     </div>
 </section>
@@ -499,7 +514,7 @@
                 @endif
             <div class="blog_item">
 
-                <div class="image_overlay">
+                <div class="img_overlay">
                     <img src="/storage/blog/{{$blog->files[0]->fileable_id}}/{{$blog->files[0]->name}}" alt="" />
                 </div>
                 <div class="text flex center">
@@ -580,16 +595,16 @@
         </a>
     </div>
     <div class="team_list flex">
-        <div class="image_overlay">
+        <div class="img_overlay">
             <img src="{{ asset('storage/images/team/1.png') }}" alt="" />
         </div>
-        <div class="image_overlay">
+        <div class="img_overlay">
             <img src="{{ asset('storage/images/team/2.png') }}" alt="" />
         </div>
-        <div class="image_overlay">
+        <div class="img_overlay">
             <img src="{{ asset('storage/images/team/3.png') }}" alt="" />
         </div>
-        <div class="image_overlay">
+        <div class="img_overlay">
             <img src="{{ asset('storage/images/team/4.png') }}" alt="" />
         </div>
     </div>

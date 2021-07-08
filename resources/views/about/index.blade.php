@@ -19,7 +19,7 @@
 
 <section class="about_page wrapper margin_bottom">
     <div class="flex">
-        <div class="images_overlay">
+        <div class="img_overlay">
             <img src="/storage/images/about/1.png" alt="" />
         </div>
         <div class="text">
@@ -65,7 +65,7 @@
                 remaining essentially unchanged.
             </div>
         </div>
-        <div class="images_overlay">
+        <div class="img_overlay">
             <img src="/storage/images/about/2.png" alt="" />
         </div>
     </div>
