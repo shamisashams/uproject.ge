@@ -111,6 +111,8 @@
                    href="/{{'ru'.substr(request()->path(), 2)}}">RUS</a>
                 <a class="lang {{ app()->getLocale() == 'ge' ? 'on': '' }}"
                    href="/{{'ge'.substr(request()->path(), 2)}}">GEO</a>
+                <a class="lang {{ app()->getLocale() == 'fr' ? 'on': '' }}"
+                   href="/{{'fr'.substr(request()->path(), 2)}}">FRA</a>
             </div>
         </div>
     </div>
