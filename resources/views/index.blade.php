@@ -594,18 +594,34 @@
             <button class="view_all_btn">View All</button>
         </a>
     </div>
-    <div class="team_list flex">
+    <div class="team_list flex team_grid">
         <div class="img_overlay">
             <img src="img/team/1.jpg" alt="" />
+            <div class="caption">
+            <div class="name">Alexandre Kavelashvili</div>
+            <div class="pos">Chief Surveyor</div>
+        </div>
         </div>
         <div class="img_overlay">
             <img src="img/team/2.jpg" alt="" />
+            <div class="caption">
+            <div class="name">Anzor Mamrashi </div>
+            <div class="pos">Head of Surveying Service</div>
+        </div>
         </div>
         <div class="img_overlay">
             <img src="img/team/7.jpg" alt="" />
+            <div class="caption">
+            <div class="name">Maka Mdzhavanadze </div>
+            <div class="pos">Chief Engineer</div>
+        </div>
         </div>
         <div class="img_overlay">
             <img src="img/team/11.jpg" alt="" />
+            <div class="caption">
+            <div class="name">Giorgi Ebanoidze</div>
+            <div class="pos">Senior Engineer </div>
+        </div>
         </div>
     </div>
 </section>
