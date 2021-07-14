@@ -1,17 +1,17 @@
 /* general */
 @font-face {
     font-family: "yantra-regular";
-    src: url(font/Yantramanav-Regular.ttf);
+    src: url(../fonts/Yantramanav-Regular.ttf);
 }
 
 @font-face {
     font-family: "yantra-medium";
-    src: url(font/Yantramanav-Medium.ttf);
+    src: url(../fonts/Yantramanav-Medium.ttf);
 }
 
 @font-face {
     font-family: "yantra-bold";
-    src: url(font/Yantramanav-Bold.ttf);
+    src: url(../fonts/Yantramanav-Bold.ttf);
 }
 
 *,
@@ -139,7 +139,11 @@ img {
 .showcase_overlay {
     width: 100%;
     height: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.23));
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.23)
+    );
 }
 
 .img_overlay {
@@ -158,7 +162,11 @@ img {
     height: 100%;
     left: 0;
     top: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.15));
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.3),
+        rgba(0, 0, 0, 0.15)
+    );
 }
 
 .img_fit {
@@ -243,7 +251,7 @@ img {
 }
 
 .main_showcases {
-    padding-top: 100px;
+    padding-top: 88px;
     height: 563px;
 }
 
@@ -1095,7 +1103,7 @@ img {
 }
 
 .team_page.team_grid .img_overlay {
-    max-height: 546px;
+    height: 250px;
 }
 
 .team_grid .img_overlay .caption {
@@ -1165,13 +1173,17 @@ img {
     height: 100%;
     top: 0;
     left: 0;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.23));
+    background: linear-gradient(
+        to top,
+        rgba(0, 0, 0, 0.45),
+        rgba(0, 0, 0, 0.23)
+    );
     transition: 0.3s linear;
     transform-origin: bottom;
 }
 
 .contact_showcase iframe {
-    margin-top: 100px;
+    margin-top: 88px;
     width: 100%;
     height: 100%;
 }
@@ -1317,11 +1329,34 @@ img {
 }
 
 .projects_page .project_grid .img_overlay img {
-    transition: 0.3s;
+    transition: 0.4s;
 }
 
 .projects_page .project_grid .img_overlay:hover img {
     transform: scale(1.1);
+}
+.projects_page .project_grid .img_overlay .caption {
+    position: absolute;
+    z-index: 200;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.61);
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    transform: translateY(100%);
+    transition: 0.4s;
+}
+.projects_page .project_grid .img_overlay:hover .caption {
+    transform: translateY(0);
+}
+.projects_page .project_grid .img_overlay .caption .name {
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+.projects_page .project_grid .img_overlay .caption .date {
+    font-size: 13px;
+    color: #cccccc;
 }
 
 /* project-fullview.html */
@@ -1438,6 +1473,37 @@ img {
 #project_popup_view #close_popup img {
     width: 50%;
     height: 50%;
+}
+
+/* team view page */
+
+.teamview_page {
+    align-items: flex-start;
+}
+.teamview_page .img {
+    width: 50%;
+    height: auto;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+.teamview_page .bio {
+    max-width: 45%;
+}
+.teamview_page .bio .name {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.teamview_page .bio .position {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.teamview_page .bio .cntct {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.teamview_page .bio .para {
+    margin-bottom: 20px;
+    font-size: 16px;
 }
 
 /*///////////////////////////// Responsive /////////////////////////////*/
@@ -2358,5 +2424,58 @@ img {
 @media screen and (max-width: 550px) {
     .contact_showcase {
         height: 320px;
+    }
+}
+
+/* team view */
+@media screen and (max-width: 1300px) {
+    .teamview_page .bio .name {
+        font-size: 45px;
+        margin-bottom: 0px;
+    }
+    .teamview_page .img {
+        margin-top: 13px;
+    }
+    .teamview_page .bio .position {
+        font-size: 25px;
+        margin-bottom: 6px;
+    }
+    .teamview_page .bio .cntct {
+        font-size: 23px;
+        margin-bottom: 18px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .teamview_page {
+        flex-direction: column;
+    }
+    .teamview_page .img {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .teamview_page .bio {
+        width: 100%;
+        max-width: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    .teamview_page .bio .name {
+        font-size: 30px;
+    }
+    .teamview_page .img {
+        margin-bottom: 15px;
+    }
+    .teamview_page .bio .position {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .teamview_page .bio .cntct {
+        font-size: 19px;
+        margin-bottom: 18px;
+    }
+    .teamview_page .bio .para {
+        margin-bottom: 13px;
+        font-size: 14px;
     }
 }

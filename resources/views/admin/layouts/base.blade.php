@@ -33,6 +33,7 @@
         <!-- END: Page Level CSS-->
         <!-- BEGIN: Custom CSS-->
         <link href="{{asset('../admin/css/custom/custom.css')}}" rel="stylesheet">
+        <link href="{{asset('../resources/css/style.css')}}" rel="stylesheet">
         <!-- END: Custom CSS-->
         <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     </head>

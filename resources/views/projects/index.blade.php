@@ -22,81 +22,145 @@
     <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/1/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/1/4.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/2/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/2/2.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/3/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/3/3.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/4/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/4/2.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/2/3.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/5/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/5/4.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/5/3.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/5/2.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/6/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/7/1.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
         <a href="project-view.html">
           <div class="img_overlay">
             <img src="../img/projects/7/3.jpg" alt="" />
+            <div class="caption">
+              <div class="name">Vila on the cliff</div>
+              <div class="date">Year: 2018</div>
+            </div>
           </div>
         </a>
     </div>

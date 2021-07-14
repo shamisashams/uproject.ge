@@ -1,15 +1,15 @@
 /* general */
 @font-face {
     font-family: "yantra-regular";
-    src: url(../fonts/Yantramanav-Regular.ttf);
+    src: url(fonts/Yantramanav-Regular.ttf);
 }
 @font-face {
     font-family: "yantra-medium";
-    src: url(../fonts/Yantramanav-Medium.ttf);
+    src: url(fonts/Yantramanav-Medium.ttf);
 }
 @font-face {
     font-family: "yantra-bold";
-    src: url(../fonts/Yantramanav-Bold.ttf);
+    src: url(fonts/Yantramanav-Bold.ttf);
 }
 *,
 *::after,
@@ -50,7 +50,7 @@ body {
     font-weight: 400;
     line-height: 1.3;
     color: #808080;
-    background: #fff;
+    background: #000;
     overflow-x: hidden;
     scroll-behavior: smooth;
     font-size: 16px;

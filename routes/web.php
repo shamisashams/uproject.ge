@@ -35,11 +35,14 @@
      })->name('about');
      Route::get('/projects', function () {
          return view('projects/index');
-     })->name('projects');
+     })->name('projects');      
 
      Route::get('/team', function () {
          return view('team/index');
      })->name('team');
+     Route::get('/team-view', function () {
+         return view('team-view/index');
+     })->name('teamView');
 
      Route::prefix('admin')->group(function () {
          Route::get('/login', [AuthController::class, 'showLogin'])->name('showLogin');
