@@ -14,14 +14,21 @@
                             class="waves-effect waves-block waves-light search-button" href="javascript:void(0);"><i
                                 class="material-icons">search</i></a></li>
 
-                    <li><a class="waves-effect waves-block waves-light profile-button" href="javascript:void(0);"
-                           data-target="profile-dropdown"><span class="avatar-status avatar-online"><img
-                                    src="/admin/images/avatar/avatar-7.png" alt="avatar"><i></i></span></a>
+                    <li><a class="lang {{ app()->getLocale() == 'en' ? 'on': '' }}"
+                           href="{{ route('adminBlogIndex','en') }}">ENG</a></li>
+                    <li><a class="lang {{ app()->getLocale() == 'ru' ? 'on': '' }}"
+                           href="{{ route('adminBlogIndex','ru') }}">RUS</a>
                     </li>
-                                         <li><a class="lang {{ app()->getLocale() == 'en' ? 'on': '' }}" href="{{ route('adminBlogIndex','en') }}">ENG</a></li>
-                    <li><a class="lang {{ app()->getLocale() == 'ru' ? 'on': '' }}" href="{{ route('adminBlogIndex','ru') }}">RUS</a>
+                    <li><a class="lang {{ app()->getLocale() == 'ge' ? 'on': '' }}"
+                           href="{{ route('adminBlogIndex','ge') }}">GEO</a></li>
+
+                    <li>
+                        <a id="logout" href="{{route('logout',app()->getLocale())}}">
+                            Logout
+                        </a>
                     </li>
-                    <li> <a class="lang {{ app()->getLocale() == 'ge' ? 'on': '' }}" href="{{ route('adminBlogIndex','ge') }}">GEO</a></li>
+
+                </ul>
 
             </div>
 
@@ -37,6 +44,9 @@
                 <li class="dropdown-item"><a class="grey-text text-darken-1" href="#!" data-language="de"><i
                             class="flag-icon flag-icon-de"></i> German</a></li>
             </ul>
+            <a id="logout" class="grey-text text-darken-1" href="{{route('logout',app()->getLocale())}}"><i
+                    class="material-icons">keyboard_tab</i>
+                Logout</a>
             <ul class="dropdown-content" id="profile-dropdown">
                 <li><a class="grey-text text-darken-1" href="{{route('logout',app()->getLocale())}}"><i
                             class="material-icons">keyboard_tab</i>
@@ -59,6 +69,6 @@
             </form>
         </div>
     </nav>
-</nav>
-</div>
+    </nav>
+    </div>
 </header>

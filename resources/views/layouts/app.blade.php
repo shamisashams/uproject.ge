@@ -83,22 +83,22 @@
         </a>
         <div class="navbar part">
             <a href="{{ route('index',app()->getLocale()) }}">
-                <div class="nav main_blue flex center current">Home</div>
+                <div class="nav main_blue flex center {{request()->path() =="" || request()->path()==app()->getLocale() ?"current":""}}">Home</div>
             </a>
             <a href="{{ route('projects',app()->getLocale()) }}">
-                <div class="nav main_blue flex center">Projects</div>
+                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('projects',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Projects</div>
             </a>
             <a href="{{ route('blogIndex',app()->getLocale()) }}">
-                <div class="nav main_blue flex center">Blog</div>
+                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('blogIndex',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Blog</div>
             </a>
             <a href="{{ route('team',app()->getLocale()) }}">
-                <div class="nav main_blue flex center">Team</div>
+                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('team',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Team</div>
             </a>
             <a href="{{ route('about',app()->getLocale()) }}">
-                <div class="nav main_blue flex center">About us</div>
+                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('about',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">About us</div>
             </a>
             <a href="{{ route('contact',app()->getLocale()) }}">
-                <div class="nav main_blue flex center">Contact us</div>
+                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('contact',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Contact us</div>
             </a>
         </div>
         <button id="menu_btn"></button>
