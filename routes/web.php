@@ -35,7 +35,11 @@
      })->name('about');
      Route::get('/projects', function () {
          return view('projects/index');
-     })->name('projects');      
+     })->name('projects');
+
+     Route::get('/project-details', function () {
+         return view('projects/details');
+     })->name('projectDetails');
 
      Route::get('/team', function () {
          return view('team/index');
@@ -63,4 +67,3 @@
          });
      });
  });
- 

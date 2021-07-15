@@ -267,25 +267,25 @@ img {
 }
 
 .main_showcases.team {
-    background: url(img/showcases/1.png) no-repeat;
+    background: url(/img/showcases/1.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main_showcases.about {
-    background: url(img/showcases/2.png) no-repeat;
+    background: url(/img/showcases/2.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main_showcases.blog {
-    background: url(img/showcases/3.png) no-repeat;
+    background: url(/img/showcases/3.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .main_showcases.projects {
-    background: url(img/showcases/4.png) no-repeat;
+    background: url(/img/showcases/4.png) no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -877,7 +877,7 @@ img {
     height: 24px;
     right: 0;
     top: -2px;
-    background: url(img/icons/svg/plus.svg);
+    background: url(/img/icons/svg/plus.svg);
 }
 
 @keyframes rotate {
@@ -1075,7 +1075,7 @@ img {
     background: rgba(0, 0, 0, 0.4);
     left: 0;
     top: 0;
-    content: url(img/icons/footer/pin.png);
+    content: url(/img/icons/footer/pin.png);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1313,7 +1313,7 @@ img {
 }
 
 .blogs_page .blog_item .read_more_rotate::after {
-    background: url(img/icons/svg/bp.png);
+    background: url(/img/icons/svg/bp.png);
 }
 
 /* projects.html */
