@@ -9,7 +9,7 @@
         type="text/css"
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
-    <link rel="stylesheet" href="{{ url('/css/style.css') }}"/>
+    <link rel="stylesheet" href="{{ url('/css/style.css?v=3') }}"/>
     <title>UNIVERSAL PROJECT</title>
 </head>
 <body>
