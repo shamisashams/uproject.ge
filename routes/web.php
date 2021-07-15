@@ -37,7 +37,7 @@
          return view('projects/index');
      })->name('projects');
 
-     Route::get('/project-details', function () {
+     Route::get('/projects/details', function () {
          return view('projects/details');
      })->name('projectDetails');
 
