@@ -597,7 +597,7 @@
     <div class="team_list flex team_grid">
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="img/team/1.jpg" alt="" />
+            <img src="img/team/1.png" alt="" />
             <div class="caption">
             <div class="name">Alexandre Kavelashvili</div>
             <div class="pos">Chief Surveyor</div>
@@ -606,7 +606,7 @@
         </a>
         <a href="{{ route('teamView',app()->getLocale()) }}">
             <div class="img_overlay">
-                <img src="img/team/2.jpg" alt="" />
+                <img src="img/team/2.png" alt="" />
                 <div class="caption">
                 <div class="name">Anzor Mamrashi </div>
                 <div class="pos">Head of Surveying Service</div>
@@ -615,7 +615,7 @@
         </a>
         <a href="{{ route('teamView',app()->getLocale()) }}">
             <div class="img_overlay">
-                <img src="img/team/7.jpg" alt="" />
+                <img src="img/team/7.png" alt="" />
                 <div class="caption">
                 <div class="name">Maka Mdzhavanadze </div>
                 <div class="pos">Chief Engineer</div>
@@ -624,7 +624,7 @@
         </a>
         <a href="{{ route('teamView',app()->getLocale()) }}">
             <div class="img_overlay">
-                <img src="img/team/11.jpg" alt="" />
+                <img src="img/team/11.png" alt="" />
                 <div class="caption">
                 <div class="name">Giorgi Ebanoidze</div>
                 <div class="pos">Senior Engineer </div>

@@ -20,7 +20,7 @@
 <section class="team_page wrapper team_grid margin_bottom">
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/1.jpg" alt="" />
+            <img src="../img/team/1.png" alt="" />
             <div class="caption">
                 <div class="name">Alexandre Kavelashvili</div>
                 <div class="pos">Chief Surveyor</div>
@@ -29,7 +29,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/2.jpg" alt="" />
+            <img src="../img/team/2.png" alt="" />
             <div class="caption">
                 <div class="name">Anzor Mamrashi </div>
                 <div class="pos">Head of Surveying Service</div>
@@ -38,7 +38,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/3.jpg" alt="" />
+            <img src="../img/team/3.png" alt="" />
             <div class="caption">
                 <div class="name">Vakho Tabatadze</div>
                 <div class="pos">Architect </div>
@@ -47,7 +47,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/4.jpg" alt="" />
+            <img src="../img/team/4.png" alt="" />
             <div class="caption">
                 <div class="name">Tina Bokuchava</div>
                 <div class="pos">Architect</div>
@@ -56,7 +56,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-        <img src="../img/team/5.jpg" alt="" />
+        <img src="../img/team/5.png" alt="" />
         <div class="caption">
             <div class="name">Mikheil Ashentsev</div>
             <div class="pos">Deputy head of surveying service</div>
@@ -65,7 +65,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/6.jpg" alt="" />
+            <img src="../img/team/6.png" alt="" />
             <div class="caption">
                 <div class="name">Mariam Akhalaia</div>
                 <div class="pos">Interior Designer</div>
@@ -74,7 +74,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/7.jpg" alt="" />
+            <img src="../img/team/7.png" alt="" />
             <div class="caption">
                 <div class="name">Maka Mdzhavanadze </div>
                 <div class="pos">Chief Engineer</div>
@@ -83,7 +83,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/8.jpg" alt="" />
+            <img src="../img/team/8.png" alt="" />
             <div class="caption">
                 <div class="name">Nodar Khorbaladze</div>
                 <div class="pos">Chief Surveyor</div>
@@ -92,7 +92,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/9.jpg" alt="" />
+            <img src="../img/team/9.png" alt="" />
             <div class="caption">
                 <div class="name">Tornike Panchvdze </div>
                 <div class="pos">Highway Engineer</div>
@@ -101,7 +101,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/10.jpg" alt="" />
+            <img src="../img/team/10.png" alt="" />
             <div class="caption">
                 <div class="name">Giorgi Tsimakuridze </div>
                 <div class="pos">Technical Manager</div>
@@ -110,7 +110,7 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/11.jpg" alt="" />
+            <img src="../img/team/11.png" alt="" />
             <div class="caption">
                 <div class="name">Giorgi Ebanoidze</div>
                 <div class="pos">Senior Engineer </div>
