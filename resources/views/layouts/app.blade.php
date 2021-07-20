@@ -83,22 +83,40 @@
         </a>
         <div class="navbar part">
             <a href="{{ route('index',app()->getLocale()) }}">
-                <div class="nav main_blue flex center {{request()->path() =="" || request()->path()==app()->getLocale() ?"current":""}}">Home</div>
+                <div
+                    class="nav main_blue flex center {{request()->path() =="" || request()->path()==app()->getLocale() ?"current":""}}">
+                    Home
+                </div>
             </a>
             <a href="{{ route('projects',app()->getLocale()) }}">
-                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('projects',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Projects</div>
+                <div
+                    class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('projects',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
+                    Projects
+                </div>
             </a>
             <a href="{{ route('blogIndex',app()->getLocale()) }}">
-                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('blogIndex',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Blog</div>
+                <div
+                    class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('blogIndex',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
+                    Blog
+                </div>
             </a>
             <a href="{{ route('team',app()->getLocale()) }}">
-                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('team',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Team</div>
+                <div
+                    class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('team',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
+                    Team
+                </div>
             </a>
             <a href="{{ route('about',app()->getLocale()) }}">
-                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('about',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">About us</div>
+                <div
+                    class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('about',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
+                    About us
+                </div>
             </a>
             <a href="{{ route('contact',app()->getLocale()) }}">
-                <div class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('contact',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">Contact us</div>
+                <div
+                    class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('contact',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
+                    Contact us
+                </div>
             </a>
         </div>
         <button id="menu_btn"></button>
@@ -188,6 +206,11 @@
     <div class="bottom">
         <div class="wrapper bold poppins">By insite</div>
     </div>
+
+    <div id="fb-root"></div>
+
+    <div class="fb-customerchat"></div>
+
 </footer>
 
 <script
@@ -203,6 +226,28 @@
     src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
 ></script>
 
+<script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "101097628928570");
+    chatbox.setAttribute("attribution", "setup_tool");
+    chatbox.setAttribute("theme_color", "#d90a2c");
+
+    window.fbAsyncInit = function () {
+        FB.init({
+            xfbml: true,
+            version: 'v11.0'
+        });
+    };
+
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
 <script src="{{ url('/js/general.js') }}"></script>
 <script src="{{ url('/js/slide.js') }}"></script>
 </body>
