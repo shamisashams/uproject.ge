@@ -21,7 +21,7 @@
     <div class="project_grid">
     <a href="{{route('projectDetails',app()->getLocale())}}">
           <div class="img_overlay">
-            <img src="../img/projects/1/1.jpg" alt="" />
+            <img src="../img/projects/1/1.png" alt="" />
             <div class="caption">
               <div class="name">Vila on the cliff</div>
               <div class="date">Year: 2018</div>
