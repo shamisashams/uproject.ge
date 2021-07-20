@@ -209,7 +209,7 @@
 
     <div id="fb-root"></div>
 
-    <div class="fb-customerchat"></div>
+    <div class="fb-customerchat" id="fb-customer-chat"></div>
 
 </footer>
 
