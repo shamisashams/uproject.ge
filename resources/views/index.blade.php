@@ -311,7 +311,7 @@
         <div class="projects_slider flex">
             <div class="item">
                 <div class="img_overlay">
-                    <img src="img/projects/1/3.jpg" alt="" />
+                    <img src="img/projects/1/3.png" alt="" />
                 </div>
                 <div class="category bold">Category dfgh</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -326,7 +326,7 @@
             </div>
             <div class="item">
                 <div class="img_overlay">
-                    <img src="img/projects/2/4.jpg" alt="" />
+                    <img src="img/projects/2/4.png" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -341,7 +341,7 @@
             </div>
             <div class="item">
                 <div class="img_overlay">
-                    <img src="img/projects/3/2.jpg" alt="" />
+                    <img src="img/projects/3/2.png" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -356,7 +356,7 @@
             </div>
             <div class="item">
                 <div class="img_overlay">
-                    <img src="img/projects/4/6.jpg" alt="" />
+                    <img src="img/projects/4/6.png" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -371,7 +371,7 @@
             </div>
             <div class="item">
                 <div class="img_overlay">
-                    <img src="img/projects/5/3.jpg" alt="" />
+                    <img src="img/projects/5/3.png" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -386,7 +386,7 @@
             </div>
             <div class="item">
                 <div class="img_overlay">
-                    <img src="img/projects/7/1.jpg" alt="" />
+                    <img src="img/projects/7/1.png" alt="" />
                 </div>
                 <div class="category bold">Category</div>
                 <div class="name">Lorem Ipsum is simply</div>
@@ -461,35 +461,35 @@
     </div>
     <div class="gallery_grid">
         <div class="g_item img_overlay">
-            <img src="img/projects/1/1.jpg" alt="" />
+            <img src="img/projects/1/1.png" alt="" />
         </div>
         <div class="g_item img_overlay">
-            <img src="img/projects/2/1.jpg" alt="" />
+            <img src="img/projects/2/1.png" alt="" />
         </div>
         <div class="g_item img_overlay">
-            <img src="img/projects/3/1.jpg" alt="" />
+            <img src="img/projects/3/1.png" alt="" />
         </div>
         <div class="g_item flex">
             <div class="g_item img_overlay">
-                <img src="img/projects/3/3.jpg" alt="" />
+                <img src="img/projects/3/3.png" alt="" />
             </div>
             <div class="g_item img_overlay">
-                <img src="img/projects/4/5.jpg" alt="" />
+                <img src="img/projects/4/5.png" alt="" />
             </div>
         </div>
         <div class="g_item flex">
             <div class="g_item img_overlay">
-                <img src="img/projects/4/6.jpg" alt="" />
+                <img src="img/projects/4/6.png" alt="" />
             </div>
             <div class="g_item img_overlay">
-                <img src="img/projects/7/1.jpg" alt="" />
+                <img src="img/projects/7/1.png" alt="" />
             </div>
         </div>
         <div class="g_item img_overlay">
-            <img src="img/projects/1/3.jpg" alt="" />
+            <img src="img/projects/1/3.png" alt="" />
         </div>
         <div class="g_item img_overlay">
-            <img src="img/projects/7/2.jpg" alt="" />
+            <img src="img/projects/7/2.png" alt="" />
         </div>
     </div>
 </section>

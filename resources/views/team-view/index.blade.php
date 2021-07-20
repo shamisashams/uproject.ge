@@ -19,7 +19,7 @@
 
 <section class="teamview_page wrapper margin_bottom flex">
     <div class="img">
-        <img src="../img/team/11.jpg" alt="" />
+        <img src="../img/team/11.png" alt="" />
     </div>
     <div class="bio">
         <div class="name bold main_blue">NAME SURNAME</div>

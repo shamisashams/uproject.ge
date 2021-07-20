@@ -19,7 +19,7 @@
 
     <section class="project_view_page blogs_page wrapper margin_bottom">
         <div class="flex">
-            <img class="img" src="/img/projects/1/1.jpg" alt=""/>
+            <img class="img" src="/img/projects/1/1.png" alt=""/>
             <div class="div">
                 <div class="date">1. JANUARY. 2019</div>
                 <div class="title main_blue bold">Smart Lighting</div>
@@ -147,22 +147,22 @@
     <div class="pp_slider_track">
         <div class="slider_project_page flex margin_bottom">
             <div class="project_view_image">
-                <img src="/img/projects/1/2.jpg" alt=""/>
+                <img src="/img/projects/1/2.png" alt=""/>
             </div>
             <div class="project_view_image">
-                <img src="/img/projects/2/2.jpg" alt=""/>
+                <img src="/img/projects/2/2.png" alt=""/>
             </div>
             <div class="project_view_image">
-                <img src="/img/projects/3/2.jpg" alt=""/>
+                <img src="/img/projects/3/2.png" alt=""/>
             </div>
             <div class="project_view_image">
-                <img src="/img/projects/4/2.jpg" alt=""/>
+                <img src="/img/projects/4/2.png" alt=""/>
             </div>
             <div class="project_view_image">
-                <img src="/img/projects/5/2.jpg" alt=""/>
+                <img src="/img/projects/5/2.png" alt=""/>
             </div>
             <div class="project_view_image">
-                <img src="/img/projects/6/2.jpg" alt=""/>
+                <img src="/img/projects/6/2.png" alt=""/>
             </div>
         </div>
         <button class="arr" id="pps_prev">
@@ -215,7 +215,7 @@
 
     <section id="project_popup_view" class="flex center">
         <div class="image">
-            <img src="/img/projects/1/3.jpg" alt=""/>
+            <img src="/img/projects/1/3.png" alt=""/>
             <button id="close_popup" class="flex center">
                 <img src="/img/icons/other/close.png" alt=""/>
             </button>
