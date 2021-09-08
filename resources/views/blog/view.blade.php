@@ -4,8 +4,8 @@
         {{--    <div class="showcase_overlay">--}}
         {{--        <div class="wrapper flex center">--}}
         {{--            <div class="main_titles">--}}
-        {{--                <div class="title_bg bold">Blog</div>--}}
-        {{--                <div class="title bold white">Blog</div>--}}
+        {{--                <div class="title_bg bold">{{__('client.blog')}}</div>--}}
+        {{--                <div class="title bold white">{{__('client.blog')}}</div>--}}
         {{--            </div>--}}
         {{--            <div class="paragraph dc">--}}
         {{--                In publishing and graphic design, Lorem ipsum is a placeholder text--}}

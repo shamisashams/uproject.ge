@@ -7,13 +7,11 @@
     <div class="showcase_overlay">
         <div class="wrapper flex center">
             <div class="main_titles">
-                <div class="title_bg bold">Blog</div>
-                <div class="title bold white">Blog</div>
+                <div class="title_bg bold">{{__('client.blog')}}</div>
+                <div class="title bold white">{{__('client.blog')}}</div>
             </div>
             <div class="paragraph dc">
-                In publishing and graphic design, Lorem ipsum is a placeholder text
-                commonly used to demonstrate the visual form of a document or a
-                typeface without relying on meaningful content.
+                {{__('client.blog_showcase_para')}}
             </div>
         </div>
     </div>
@@ -34,7 +32,7 @@
                 {!! substr($blog->content,0,400) !!}
             </div>
             <a href="{{route('blogView',[app()->getLocale(),$blog->id])}}" class="read_more_rotate main_blue medium"
-               >Read More</a
+               >{{__('client.read_more')}}</a
             >
         </div>
     </div>

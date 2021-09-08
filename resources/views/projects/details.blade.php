@@ -5,13 +5,11 @@
         <div class="showcase_overlay">
             <div class="wrapper flex center">
                 <div class="main_titles">
-                    <div class="title_bg bold">Projects</div>
-                    <div class="title bold white">Projects</div>
+                    <div class="title_bg bold">{{__('client.projects')}}</div>
+                    <div class="title bold white">{{__('client.projects')}}</div>
                 </div>
                 <div class="paragraph dc">
-                    In publishing and graphic design, Lorem ipsum is a placeholder text
-                    commonly used to demonstrate the visual form of a document or a
-                    typeface without relying on meaningful content.
+                {{__('client.projects_showcase_para')}}
                 </div>
             </div>
         </div>
@@ -21,126 +19,34 @@
         <div class="flex">
             <img class="img" src="/img/projects/1/1.png" alt=""/>
             <div class="div">
-                <div class="date">1. JANUARY. 2019</div>
-                <div class="title main_blue bold">Smart Lighting</div>
+                <div class="date">1. {{__('client.january')}}. 2019</div>
+                <div class="title main_blue bold">{{__('client.smart_lighting')}}</div>
                 <div class="para">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-                    dummy text of the printing and typesetting industry. Lorem Ipsum has
-                    been the industry's standard dummy text ever since the 1500s, when
-                    an unknown printer took a galley of type and scrambled it to make a
-                    type specimen book. It has survived not only five centuries, but
-                    also the leap into electronic typesetting, remaining essentially
-                    unchanged. It was popularised in the 1960s with the release of
-                    Letraset sheets containing Lorem Ipsum passages, and more recently
-                    with desktop publishing software like Aldus PageMaker including
-                    versions of Lorem Ipsum.
+                {{__('client.project_detail_par_1')}}
                 </div>
                 <div class="quote_box small border">
                     <div class="main_blue bold">
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry
+                    {{__('client.project_detail_quote_1')}} 
                     </div>
                     <img src="/img/icons/blog/q.png" alt=""/>
                 </div>
                 <div class="para">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since the 1500s, when an unknown printer took a galley of type
-                    and scrambled it to make a type specimen book. It has survived not
-                    only five centuries, but also the leap into electronic typesetting,
-                    remaining essentially unchanged. It was popularised in the 1960s
-                    with the release of Letraset sheets containing Lorem Ipsum passages,
-                    and more recently with desktop publishing software like Aldus
-                    PageMaker including versions of Lorem Ipsum. Lorem Ipsum is simply
-                    dummy text of the printing and typesetting industry.
+                {{__('client.project_detail_par_2')}}
                 </div>
             </div>
         </div>
         <div class="para">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum. <br/>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum.
+        {{__('client.project_detail_par_3')}} <br/>
+            {{__('client.project_detail_par_4')}} 
         </div>
         <div class="quote_box border flex">
             <div class="main_blue bold">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry
+            {{__('client.project_detail_quote_2')}} 
             </div>
             <img src="/img/icons/blog/q.png" alt=""/>
         </div>
         <div class="para">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only five
-            centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum.Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum. Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not only
-            five centuries, but also the leap into electronic typesetting, remaining
-            essentially unchanged. It was popularised in the 1960s with the release
-            of Letraset sheets containing Lorem Ipsum passages, and more recently
-            with desktop publishing software like Aldus PageMaker including versions
-            of Lorem Ipsum.
+        {{__('client.project_detail_par_5')}}
         </div>
     </section>
 

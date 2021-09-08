@@ -10,7 +10,7 @@
         href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
     <link rel="stylesheet" href="{{ url('/css/style.css?v=3') }}"/>
-    <title>UNIVERSAL PROJECT</title>
+    <title>{{__('client.universal_project')}}</title>
 </head>
 <body>
 <header class="header">
@@ -21,7 +21,7 @@
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/2.png" alt=""/>
-            <div>Georgia, Tbilisi - Saburatalo, St 11209</div>
+            <div>{{__('client.the_address')}}</div>
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/3.png" alt=""/>
@@ -33,7 +33,7 @@
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/2.png" alt=""/>
-            <div>Georgia, Tbilisi - Saburatalo, St 11209</div>
+            <div>{{__('client.the_address')}}</div>
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/3.png" alt=""/>
@@ -48,7 +48,7 @@
             </a>
             <a href="#" class="flex info">
                 <img src="/storage/images/icons/header/2.png" alt=""/>
-                <div>Georgia, Tbilisi - Saburatalo, St 11209</div>
+                <div>{{__('client.the_address')}}</div>
             </a>
             <a href="#" class="flex info">
                 <img src="/storage/images/icons/header/3.png" alt=""/>
@@ -56,7 +56,7 @@
             </a>
             <div class="flex info">
                 <img src="/storage/images/icons/header/4.png" alt=""/>
-                <div>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</div>
+                <div>{{__('client.working_hours')}}</div>
             </div>
         </div>
         <div class="flex right">
@@ -77,45 +77,45 @@
     <div class="bottom border flex">
         <a href="{{ route('index',app()->getLocale()) }}" class="logo red_bg part flex center">
             <div class="main medium">
-                UNIVERSAL <span class="black medium">PROJECT</span>
+               {{__('client.universal')}}  <span class="black medium">{{__('client.project')}}</span>
             </div>
-            <div class="poppins">Road, Water, Architecture, Topography</div>
+            <div class="poppins">{{__('client.logo_subtitle')}}</div>
         </a>
         <div class="navbar part">
             <a href="{{ route('index',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{request()->path() =="" || request()->path()==app()->getLocale() ?"current":""}}">
-                    Home
+                    {{__('client.home')}}
                 </div>
             </a>
             <a href="{{ route('projects',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('projects',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
-                    Projects
+                    {{__('client.projects')}}
                 </div>
             </a>
             <a href="{{ route('blogIndex',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('blogIndex',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
-                    Blog
+                    {{__('client.blog')}}
                 </div>
             </a>
             <a href="{{ route('team',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('team',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
-                    Team
+                    {{__('client.team')}}
                 </div>
             </a>
             <a href="{{ route('about',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('about',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
-                    About us
+                    {{__('client.about_us')}}
                 </div>
             </a>
             <a href="{{ route('contact',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('contact',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
-                    Contact us
+                   {{__('client.contact_us')}} 
                 </div>
             </a>
         </div>
@@ -141,37 +141,33 @@
 <footer class="footer">
     <div class="wrapper flex">
         <div class="column">
-            <a href="#" class="logo medium"> UNIVERSAL <span>PROJECT</span> </a>
+            <a href="#" class="logo medium">{{__('client.universal')}}  <span>{{__('client.project')}}</span> </a>
             <div class="poppins">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived not
-                only five centuries,
+                {{__('client.footer_paragraph')}}
             </div>
             <div class="item time flex">
                 <img src="/storage/images/icons/header/4.png" alt=""/>
                 <div style="text-transform: uppercase">
-                    Mon - Sat 8:00 - 17:30, <br/>
-                    Sunday - CLOSED
+                   {{__('client.open_days')}}  <br/>
+                   {{__('client.closed_days')}} 
                 </div>
             </div>
         </div>
         <div class="column">
-            <div class="title bold">Our Services</div>
-            <a class="item link" href="#">Chemical Engineering Projects</a>
-            <a class="item link" href="#">Mining Engineering Construction</a>
-            <a class="item link" href="#">Engineering Welding Engineering</a>
-            <a class="item link" href="#">Welding Engineering</a>
-            <a class="item link" href="#">Space Program XYZ</a>
+            <div class="title bold">{{__('client.our_service')}}</div>
+            <a class="item link" href="#">{{__('client.chemical_engineering')}}</a>
+            <a class="item link" href="#">{{__('client.mining_engineering')}}</a>
+            <a class="item link" href="#">{{__('client.welding_engineering')}}</a>
+            <a class="item link" href="#">{{__('client.welding_engineering')}}</a>
+            <a class="item link" href="#">{{__('client.space_program_xyz')}}</a>
         </div>
         <div class="column">
-            <div class="title bold">Office in Tbilisi</div>
+            <div class="title bold">{{__('client.office_in_tbilisi')}}</div>
             <a href="#" class="item flex">
                 <img src="/storage/images/icons/header/2.png" alt=""/>
                 <div>
-                    Georgia, Tbilisi <br/>
-                    Saburatalo, St 11209
+                    {{__('client.georgia_tbilisi')}} <br/>
+                    {{__('client.saburtalo')}}
                 </div>
             </a>
             <a href="#" class="item flex">
@@ -190,7 +186,7 @@
             </a>
         </div>
         <div class="column">
-            <div class="title bold">Our Locations</div>
+            <div class="title bold">{{__('client.our_location')}}</div>
             <div class="map">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.6452450233633!2d44.770133515678246!3d41.72817338276172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472ddadc78fb3%3A0x9f529d5044be3023!2sZhiuli%20Shartava%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1623659355947!5m2!1sen!2sge"
@@ -204,7 +200,7 @@
         </div>
     </div>
     <div class="bottom">
-        <div class="wrapper bold poppins">By insite</div>
+        <div class="wrapper bold poppins">{{__('client.')}}By insite</div>
     </div>
 
     <div id="fb-root"></div>

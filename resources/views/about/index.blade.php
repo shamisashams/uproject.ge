@@ -5,11 +5,11 @@
     <div class="showcase_overlay">
         <div class="wrapper flex center">
             <div class="main_titles">
-                <div class="title_bg bold">ABOUT US</div>
-                <div class="title bold white">ABOUT US</div>
+                <div class="title_bg bold">{{__('client.about_us')}}</div>
+                <div class="title bold white">{{__('client.about_us')}}</div>
             </div>
             <div class="paragraph dc">
-                In publishing and graphic design, Lorem ipsum is a placeholder text
+                {{__('client.')}}In publishing and graphic design, Lorem ipsum is a placeholder text
                 commonly used to demonstrate the visual form of a document or a
                 typeface without relying on meaningful content.
             </div>
@@ -24,27 +24,16 @@
         </div>
         <div class="text">
             <div class="title">
-                <div class="ab medium">ABOUT US</div>
+                <div class="ab medium" style='text-transform: uppercase;'>{{__('client.about_us')}}</div>
                 <div class="main main_blue bold">
-                    Lorem Ipsum Is Simply <br />
-                    Dummy Text
+                    {{__('client.about_us_title_1')}}
                 </div>
             </div>
             <div class="para">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived not
-                only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
+                {{__('client.about_content1_p1')}}
             </div>
             <div class="para">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived not
-                only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
+                {{__('client.about_content1_p2')}}
             </div>
         </div>
     </div>
@@ -52,17 +41,11 @@
         <div class="text">
             <div class="title">
                 <div class="main main_blue bold">
-                    Lorem Ipsum Is Simply <br />
-                    Dummy Text
+                    {{__('client.about_us_title_2')}}
                 </div>
             </div>
             <div class="para">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy text
-                ever since the 1500s, when an unknown printer took a galley of type
-                and scrambled it to make a type specimen book. It has survived not
-                only five centuries, but also the leap into electronic typesetting,
-                remaining essentially unchanged.
+                {{__('client.about_content2_p1')}}
             </div>
         </div>
         <div class="img_overlay">

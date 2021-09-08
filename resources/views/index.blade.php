@@ -8,24 +8,20 @@
             <img class="bg" src="{{asset('storage/images/hero/1.png')}}" alt="" />
             <div class="showcase_overlay">
                 <div class="flex center hero_content wrapper">
-                    <div class="text_bg bold">UNIVERSAL PROJECT</div>
-                    <div class="ab_title bold">welcome to UNIVERSAL PROJECT</div>
+                    <div class="text_bg bold">{{__('client.universal_project')}}</div>
+                    <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div>
                     <div class="title bold">
-                        Chill out What You Yelling For<br />
-                        Lay Back it's all Been
+                        {{__('client.hero_slide_title_1')}}
                     </div>
                     <div class="sub_title dc" style="max-width: 609px">
-                        been the industry's standard dummy text ever since the 1500s,
-                        Lorem Ipsum is simply dummy text of the printing and typesetting
-                        industry. Lorem Ipsum has been the industry's standard dummy
-                        text ever since the 1500s,
+                       {{__('client.hero_slide_subtitle_1')}} 
                     </div>
                     <div class="hero_btns flex">
 {{--                        <a href="#">--}}
-{{--                            <button class="main_btn read_more">Read More</button>--}}
+{{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
 {{--                        </a>--}}
                         <a href="{{route('contact',app()->getLocale())}}">
-                            <button class="main_btn contact">Contact Us</button>
+                            <button class="main_btn contact">{{__('client.contact_us')}}</button>
                         </a>
                     </div>
                 </div>
@@ -35,24 +31,20 @@
             <img class="bg" src="{{ asset('/storage/images/hero/2.png') }}" alt="" />
             <div class="showcase_overlay">
                 <div class="flex center hero_content wrapper">
-                    <div class="text_bg bold">UNIVERSAL PROJECT</div>
-                    <div class="ab_title bold">welcome to UNIVERSAL PROJECT</div>
+                    <div class="text_bg bold">{{__('client.universal_project')}}</div>
+                    <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div>
                     <div class="title bold">
-                        Nothing's changed World of War Craft <br />
-                        You know what i meannnnn
+                        {{__('client.hero_slide_title_2')}}
                     </div>
                     <div class="sub_title dc" style="max-width: 609px">
-                        Amet lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                        Esse, ipsum iure quae laudantium iusto minima maiores doloribus
-                        totam fuga ipsa magni autem unde ut cumque odio quam laboriosam,
-                        pariatur amet?
+                        {{__('client.hero_slide_subtitle_2')}}
                     </div>
                     <div class="hero_btns flex">
 {{--                        <a href="#">--}}
-{{--                            <button class="main_btn read_more">Read More</button>--}}
+{{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
 {{--                        </a>--}}
                         <a href="{{route('contact',app()->getLocale())}}">
-                            <button class="main_btn contact">Contact Us</button>
+                            <button class="main_btn contact">{{__('client.contact_us')}}</button>
                         </a>
                     </div>
                 </div>
@@ -62,24 +54,20 @@
             <img class="bg" src="{{ asset('/storage/images/hero/3.png') }}" alt="" />
             <div class="showcase_overlay">
                 <div class="flex center hero_content wrapper">
-                    <div class="text_bg bold">UNIVERSAL PROJECT</div>
-                    <div class="ab_title bold">welcome to UNIVERSAL PROJECT</div>
+                    <div class="text_bg bold">{{__('client.universal_project')}}</div>
+                    <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div>
                     <div class="title bold">
-                        Or what Dummy text i got <br />
-                        No Idea Lorem LKorn X gray No Way
+                        {{__('client.hero_slide_title_3')}}
                     </div>
                     <div class="sub_title dc" style="max-width: 609px">
-                        Standard dummyLorem Ipsum is simply dummy text of the printing
-                        and typesetting industry. Lorem Ipsum has standard dummystandard
-                        dummybeen the industry's standard dummy text ever since the
-                        1500s,
+                        {{__('client.hero_slide_subtitle_3')}}
                     </div>
                     <div class="hero_btns flex">
 {{--                        <a href="#">--}}
-{{--                            <button class="main_btn read_more">Read More</button>--}}
+{{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
 {{--                        </a>--}}
                         <a href="{{route('contact',app()->getLocale())}}">
-                            <button class="main_btn contact">Contact Us</button>
+                            <button class="main_btn contact">{{__('client.contact_us')}}</button>
                         </a>
                     </div>
                 </div>
@@ -98,14 +86,14 @@
 
 <section class="services_home wrapper margin_bottom">
     <div class="main_titles">
-        <div class="title_bg bold">SERVICES</div>
-        <div class="title bold main_blue">SERVICES</div>
+        <div class="title_bg bold">{{__('client.services')}}</div>
+        <div class="title bold main_blue">{{__('client.services')}}SERVICES</div>
     </div>
     <div class="service_boxes">
         <div class="service_box border">
-            <div class="text1 transition5">explore the features</div>
+            <div class="text1 transition5">{{__('client.')}}</div>
             <div class="text2 bold main_blue transition5">
-                Lorem Ipsum is simply
+            {{__('client.serbox_1_text2')}}
             </div>
             <a href="#">
                 <button class="plus flex center transition5">
@@ -139,9 +127,9 @@
             <span></span>
         </div>
         <div class="service_box border">
-            <div class="text1 transition5">explore the features</div>
+            <div class="text1 transition5">{{__('client.serbox_2_text1')}}</div>
             <div class="text2 bold main_blue transition5">
-                Lorem Ipsum is simply
+                {{__('client.serbox_2_text2')}}
             </div>
             <a href="#">
                 <button class="plus flex center transition5">
@@ -175,9 +163,9 @@
             <span></span>
         </div>
         <div class="service_box border">
-            <div class="text1 transition5">explore the features</div>
+            <div class="text1 transition5">{{__('client.serbox_3_text1')}}</div>
             <div class="text2 bold main_blue transition5">
-                Lorem Ipsum is simply
+                {{__('client.serbox_3_text2')}}
             </div>
             <a href="#">
                 <button class="plus flex center transition5">
@@ -211,9 +199,9 @@
             <span></span>
         </div>
         <div class="service_box border">
-            <div class="text1 transition5">explore the features</div>
+            <div class="text1 transition5">{{__('client.serbox_4_text1')}}</div>
             <div class="text2 bold main_blue transition5">
-                Lorem Ipsum is simply
+                {{__('client.serbox_4_text4')}}
             </div>
             <a href="#">
                 <button class="plus flex center transition5">
@@ -254,20 +242,12 @@
         <img class="image_fit" src="{{ asset('storage/images/home/1.png') }}" alt="" />
     </div>
     <div class="div">
-        <div class="main_blue bold">Who We Are</div>
+        <div class="main_blue bold">{{__('client.who_we_are')}}</div>
         <div class="poppins">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text ever
-            since the 1500s, when an unknown printer took a galley of type and
-            scrambled it to make a type specimen book. It has survived not only
-            five centuries, Lorem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a galley
-            of type and scrambled it to make a type specimen book. It has survived
-            not only five centuries,
+            {{__('client.who_we_are_content')}}
         </div>
         <a href="{{route('about',app()->getLocale())}}">
-            <button class="main_btn">Read More</button>
+            <button class="main_btn">{{__('client.read_more')}}</button>
         </a>
     </div>
 </section>
@@ -276,14 +256,14 @@
     <div class="counts">
         <div class="main_titles">
             <div class="title_bg bold">154</div>
-            <div class="title bold main_blue"><span>154</span>All Projects</div>
+            <div class="title bold main_blue"><span>154</span>{{__('client.all_projects')}}</div>
         </div>
     </div>
     <div class="counts">
         <div class="main_titles">
             <div class="title_bg bold">36</div>
             <div class="title bold main_blue">
-                <span>36</span>Current Projects
+                <span>36</span>{{__('client.current_projects')}}
             </div>
         </div>
     </div>
@@ -291,7 +271,7 @@
         <div class="main_titles">
             <div class="title_bg bold">118</div>
             <div class="title bold main_blue">
-                <span>118</span>Completed projects
+                <span>118</span>{{__('client.completed_projects')}}
             </div>
         </div>
     </div>
@@ -300,11 +280,11 @@
 <section class="projects_section_home margin_bottom">
     <div class="section_head flex wrapper">
         <div class="main_titles">
-            <div class="title_bg bold" style="opacity: 0.21">PROJECTS</div>
-            <div class="title bold" style="color: #f3f3f3">PROJECTS</div>
+            <div class="title_bg bold" style="opacity: 0.21">{{__('client.projects')}}</div>
+            <div class="title bold" style="color: #f3f3f3; text-transform: uppercase;" >{{__('client.projects')}}</div>
         </div>
         <a href="{{route('projects',app()->getLocale())}}">
-            <button class="view_all_btn dark">View All</button>
+            <button class="view_all_btn dark">{{__('client.view_all')}}</button>
         </a>
     </div>
     <div class="project_slider_track">
@@ -313,90 +293,78 @@
                 <div class="img_overlay">
                     <img src="img/projects/1/3.png" alt="" />
                 </div>
-                <div class="category bold">Category dfgh</div>
-                <div class="name">Lorem Ipsum is simply</div>
+                <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_1_name')}}</div>
                 <div class="dc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since
+                    {{__('client.project_slide_1_para')}}
                 </div>
                 <a href="project-view.html" class="read_more_rotate medium"
-                   >Read More</a
+                   >{{__('client.read_more')}}</a
                 >
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/2/4.png" alt="" />
                 </div>
-                <div class="category bold">Category</div>
-                <div class="name">Lorem Ipsum is simply</div>
+                <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_2_name')}}</div>
                 <div class="dc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since
+                   {{__('client.project_slide_2_para')}} 
                 </div>
                 <a href="project-view.html" class="read_more_rotate medium"
-                   >Read More</a
+                   >{{__('client.read_more')}}</a
                 >
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/3/2.png" alt="" />
                 </div>
-                <div class="category bold">Category</div>
-                <div class="name">Lorem Ipsum is simply</div>
+                <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_3_name')}}</div>
                 <div class="dc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since
+                    {{__('client.project_slide_3_para')}}
                 </div>
                 <a href="project-view.html" class="read_more_rotate medium"
-                   >Read More</a
+                   >{{__('client.read_more')}}</a
                 >
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/4/6.png" alt="" />
                 </div>
-                <div class="category bold">Category</div>
-                <div class="name">Lorem Ipsum is simply</div>
+                <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_4_name')}}</div>
                 <div class="dc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since
+                    {{__('client.project_slide_4_para')}}
                 </div>
                 <a href="project-view.html" class="read_more_rotate medium"
-                   >Read More</a
+                   >{{__('client.read_more')}}</a
                 >
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/5/3.png" alt="" />
                 </div>
-                <div class="category bold">Category</div>
-                <div class="name">Lorem Ipsum is simply</div>
+                <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_5_name')}}</div>
                 <div class="dc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since
+                    {{__('client.project_slide_5_para')}}
                 </div>
                 <a href="project-view.html" class="read_more_rotate medium"
-                   >Read More</a
+                   >{{__('client.read_more')}}</a
                 >
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/7/1.png" alt="" />
                 </div>
-                <div class="category bold">Category</div>
-                <div class="name">Lorem Ipsum is simply</div>
+                <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_6_name')}}</div>
                 <div class="dc">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                    industry. Lorem Ipsum has been the industry's standard dummy text
-                    ever since
+                   {{__('client.project_slide_6_para')}} 
                 </div>
                 <a href="project-view.html" class="read_more_rotate medium"
-                   >Read More</a
+                   >{{__('client.read_more')}}</a
                 >
             </div>
         </div>
@@ -452,11 +420,11 @@
 <section class="gallery_section wrapper margin_bottom">
     <div class="section_head flex">
         <div class="main_titles">
-            <div class="title_bg bold">Gallery</div>
-            <div class="title bold main_blue">Gallery</div>
+            <div class="title_bg bold">{{__('client.gallery')}}</div>
+            <div class="title bold main_blue">{{__('client.gallery')}}</div>
         </div>
         <a href="{{route('projects',app()->getLocale())}}">
-            <button class="view_all_btn">View All</button>
+            <button class="view_all_btn">{{__('client.view_all')}}</button>
         </a>
     </div>
     <div class="gallery_grid">
@@ -498,11 +466,11 @@
     <div class="wrapper">
         <div class="section_head flex">
             <div class="main_titles">
-                <div class="title_bg bold">Blog</div>
-                <div class="title bold main_blue">Blog</div>
+                <div class="title_bg bold">{{__('client.blog')}}</div>
+                <div class="title bold main_blue">{{__('client.blog')}}</div>
             </div>
             <a href="{{ route('blogIndex',app()->getLocale()) }}">
-                <button class="view_all_btn">View All</button>
+                <button class="view_all_btn">{{__('client.view_all')}}</button>
             </a>
         </div>
         <div class="blog_slider">
@@ -520,7 +488,7 @@
                     <div class="title bold">
                         {{ $blog->title }}
                     </div>
-                    <a href="{{route('blogView',[app()->getLocale(),$blog->id])}}" class="read_more medium">Read More</a>
+                    <a href="{{route('blogView',[app()->getLocale(),$blog->id])}}" class="read_more medium">{{__('client.read_more')}}</a>
                 </div>
             </div>
             @endforeach
@@ -586,11 +554,11 @@
 <section class="team_home wrapper margin_bottom">
     <div class="section_head flex">
         <div class="main_titles">
-            <div class="title_bg bold">Team</div>
-            <div class="title bold main_blue">Team</div>
+            <div class="title_bg bold">{{__('client.team')}}</div>
+            <div class="title bold main_blue">{{__('client.team')}}</div>
         </div>
         <a href="{{route('team',app()->getLocale())}}">
-            <button class="view_all_btn">View All</button>
+            <button class="view_all_btn">{{__('client.view_all')}}</button>
         </a>
     </div>
     
@@ -600,7 +568,7 @@
             <img src="img/team/1.png" alt="" />
             <div class="caption">
             <div class="name">Alexandre Kavelashvili</div>
-            <div class="pos">Chief Surveyor</div>
+            <div class="pos">{{__('client.chief_surveyor')}}</div>
             </div>
         </div>
         </a>
@@ -609,7 +577,7 @@
                 <img src="img/team/2.png" alt="" />
                 <div class="caption">
                 <div class="name">Anzor Mamrashi </div>
-                <div class="pos">Head of Surveying Service</div>
+                <div class="pos">{{__('client.head_of_surveying_service')}}</div>
                 </div>
             </div>
         </a>
@@ -618,7 +586,7 @@
                 <img src="img/team/7.png" alt="" />
                 <div class="caption">
                 <div class="name">Maka Mdzhavanadze </div>
-                <div class="pos">Chief Engineer</div>
+                <div class="pos">{{__('client.chief_engineer')}}</div>
                 </div>
             </div>
         </a>
@@ -627,7 +595,7 @@
                 <img src="img/team/11.png" alt="" />
                 <div class="caption">
                 <div class="name">Giorgi Ebanoidze</div>
-                <div class="pos">Senior Engineer </div>
+                <div class="pos">{{__('client.senior_engineer')}} </div>
                 </div>
             </div>
         </a>

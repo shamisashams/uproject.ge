@@ -5,13 +5,11 @@
     <div class="showcase_overlay">
         <div class="wrapper flex center">
             <div class="main_titles">
-                <div class="title_bg bold">OUR TEAM</div>
-                <div class="title bold white">OUR TEAM</div>
+                <div class="title_bg bold">{{__('client.our_team')}}</div>
+                <div class="title bold white">{{__('client.our_team')}}</div>
             </div>
             <div class="paragraph dc">
-                In publishing and graphic design, Lorem ipsum is a placeholder text
-                commonly used to demonstrate the visual form of a document or a
-                typeface without relying on meaningful content.
+            {{__('client.team_showcase_para')}}
             </div>
         </div>
     </div>

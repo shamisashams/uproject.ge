@@ -5,13 +5,11 @@
     <div class="showcase_overlay">
         <div class="wrapper flex center">
             <div class="main_titles">
-                <div class="title_bg bold">OUR TEAM</div>
-                <div class="title bold white">OUR TEAM</div>
+                <div class="title_bg bold">{{__('client.our_team')}}</div>
+                <div class="title bold white">{{__('client.our_team')}}</div>
             </div>
             <div class="paragraph dc">
-                In publishing and graphic design, Lorem ipsum is a placeholder text
-                commonly used to demonstrate the visual form of a document or a
-                typeface without relying on meaningful content.
+            {{__('client.team_showcase_para')}}
             </div>
         </div>
     </div>
@@ -23,7 +21,7 @@
             <img src="../img/team/1.png" alt="" />
             <div class="caption">
                 <div class="name">Alexandre Kavelashvili</div>
-                <div class="pos">Chief Surveyor</div>
+                <div class="pos">{{__('client.chief_surveyor')}}</div>
             </div>
         </div>
     </a>
@@ -32,7 +30,7 @@
             <img src="../img/team/2.png" alt="" />
             <div class="caption">
                 <div class="name">Anzor Mamrashi </div>
-                <div class="pos">Head of Surveying Service</div>
+                <div class="pos">{{__('client.head_of_surveying_service')}}</div>
             </div>
         </div>
     </a>
@@ -41,7 +39,7 @@
             <img src="../img/team/3.png" alt="" />
             <div class="caption">
                 <div class="name">Vakho Tabatadze</div>
-                <div class="pos">Architect </div>
+                <div class="pos">{{__('client.architect')}} </div>
             </div>
         </div>
     </a>
@@ -50,7 +48,7 @@
             <img src="../img/team/4.png" alt="" />
             <div class="caption">
                 <div class="name">Tina Bokuchava</div>
-                <div class="pos">Architect</div>
+                <div class="pos">{{__('client.architect')}}</div>
             </div>
         </div>
     </a>
@@ -59,7 +57,7 @@
         <img src="../img/team/5.png" alt="" />
         <div class="caption">
             <div class="name">Mikheil Ashentsev</div>
-            <div class="pos">Deputy head of surveying service</div>
+            <div class="pos">{{__('client.deputy_head_surveying')}}</div>
         </div>
     </div>
     </a>
@@ -68,7 +66,7 @@
             <img src="../img/team/6.png" alt="" />
             <div class="caption">
                 <div class="name">Mariam Akhalaia</div>
-                <div class="pos">Interior Designer</div>
+                <div class="pos">{{__('client.interior_designer')}}</div>
             </div>
         </div>
     </a>
@@ -77,7 +75,7 @@
             <img src="../img/team/7.png" alt="" />
             <div class="caption">
                 <div class="name">Maka Mdzhavanadze </div>
-                <div class="pos">Chief Engineer</div>
+                <div class="pos">{{__('client.chief_engineer')}}</div>
             </div>
         </div>
     </a>
@@ -86,7 +84,7 @@
             <img src="../img/team/8.png" alt="" />
             <div class="caption">
                 <div class="name">Nodar Khorbaladze</div>
-                <div class="pos">Chief Surveyor</div>
+                <div class="pos">{{__('client.chief_surveyor')}}</div>
             </div>
         </div>
     </a>
@@ -95,7 +93,7 @@
             <img src="../img/team/9.png" alt="" />
             <div class="caption">
                 <div class="name">Tornike Panchvdze </div>
-                <div class="pos">Highway Engineer</div>
+                <div class="pos">{{__('client.highway_engineer')}}</div>
             </div>
         </div>
     </a>
@@ -104,7 +102,7 @@
             <img src="../img/team/10.png" alt="" />
             <div class="caption">
                 <div class="name">Giorgi Tsimakuridze </div>
-                <div class="pos">Technical Manager</div>
+                <div class="pos">{{__('client.technical_manager')}}</div>
             </div>
         </div>
     </a>
@@ -113,7 +111,7 @@
             <img src="../img/team/11.png" alt="" />
             <div class="caption">
                 <div class="name">Giorgi Ebanoidze</div>
-                <div class="pos">Senior Engineer </div>
+                <div class="pos">{{__('client.senior_engineer')}} </div>
             </div>
         </div>
     </a>

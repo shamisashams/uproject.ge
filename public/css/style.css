@@ -238,6 +238,7 @@ img {
     font-size: 163px;
     color: transparent;
     -webkit-text-stroke: #dcdcdc 1px;
+    text-transform: uppercase;
 }
 
 .main_titles .title {
@@ -539,6 +540,7 @@ img {
     transition: 0.7s;
     opacity: 0;
     transition-delay: 0.5s;
+    max-width: 750px;
 }
 
 .hero_section .hero_content .sub_title {
@@ -1150,6 +1152,7 @@ img {
 .about_page .text .title {
     font-size: 38px;
     margin-bottom: 22px;
+    max-width: 66%;
 }
 
 .about_page .text .ab {
@@ -1272,6 +1275,7 @@ img {
     padding-left: 15px;
     font-size: 12px;
     height: 48px;
+    width: 100%;
 }
 
 .contant_page .form .input textarea {

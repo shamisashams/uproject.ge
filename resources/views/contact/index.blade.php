@@ -15,19 +15,16 @@
 <section class="contant_page wrapper flex margin_bottom">
     <div>
         <div class="main_titles">
-            <div class="title_bg bold">Messages</div>
-            <div class="title bold main_blue">Contact Us</div>
+            <div class="title_bg bold">{{__('client.messages')}}</div>
+            <div class="title bold main_blue">{{__('client.contact_us')}}</div>
         </div>
         <div class="para">
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
-            Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
-            Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec
-            nec justo eget felis facilisis fermentum. Aliquam porttitor
+            {{__('client.contact_paragraph')}}
         </div>
-        <div class="info_title medium">The Office</div>
+        <div class="info_title medium">{{__('client.the_office')}}</div>
         <a href="#" class="flex">
             <img src="/storage/images/icons/contact/1.png" alt="" />
-            <div>Georgia, Tbilisi, Ilia Chavchavadzis gamziri, 21</div>
+            <div>{{__('client.the_address')}}</div>
         </a>
         <a href="#" class="flex">
             <img src="/storage/images/icons/contact/2.png" alt="" />
@@ -169,30 +166,30 @@
         </div>
     </div>
     <div class="form">
-        <div class="title medium">Got Any Questions?</div>
+        <div class="title medium">{{__('client.got_any_questions')}}</div>
         <div class="grid">
             <div class="input border">
-                <label for="">First name</label>
+                <label for="">{{__('client.first_name')}}</label>
                 <input type="text" placeholder="Enter your name" />
             </div>
             <div class="input border">
-                <label for="">First name</label>
+                <label for="">{{__('client.first_name')}}</label>
                 <input type="text" placeholder="Enter your name" />
             </div>
             <div class="input border">
-                <label for="">First name</label>
+                <label for="">{{__('client.first_name')}}</label>
                 <input type="text" placeholder="Enter your name" />
             </div>
             <div class="input border">
-                <label for="">First name</label>
+                <label for="">{{__('client.first_name')}}</label>
                 <input type="text" placeholder="Enter your name" />
             </div>
         </div>
         <div class="input">
-            <label for="">First name</label>
+            <label for="">{{__('client.first_name')}}</label>
             <textarea class="border" placeholder="Enter your name"></textarea>
         </div>
-        <button class="main_btn">Send Messages</button>
+        <button class="main_btn">{{__('client.send_messages')}}</button>
     </div>
 </section>
 
