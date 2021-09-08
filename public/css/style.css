@@ -1146,7 +1146,7 @@ img {
 
 .about_page .flex:first-child .title {
     margin-left: -50px;
-    margin-top: -100px;
+    margin-top: 0;
 }
 
 .about_page .text .title {
@@ -1162,6 +1162,15 @@ img {
 .about_page .text .para {
     margin-bottom: 24px;
     line-height: 28px;
+    position: relative;
+}
+.about_page .text .li::before {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #013448;
+    left: -20px;
+    top: 8px;
 }
 
 /* contact.html */

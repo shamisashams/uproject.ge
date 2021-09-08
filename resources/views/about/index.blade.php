@@ -29,16 +29,16 @@
                     {{__('client.about_us_title_1')}}
                 </div>
             </div>
-            <div class="para">
+            <div class="para li">
                 {{__('client.about_content1_p1')}}
             </div>
-            <div class="para">
+            <div class="para li">
                 {{__('client.about_content1_p2')}}
             </div>
-            <div class="para">
+            <div class="para li">
                 {{__('client.about_content1_p2_1')}}
             </div>
-            <div class="para">
+            <div class="para li">
                 {{__('client.about_content1_p2_2')}}
             </div>
         </div>
