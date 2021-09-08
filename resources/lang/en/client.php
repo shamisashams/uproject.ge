@@ -215,6 +215,7 @@
   'chief_surveyor' => "Chief Surveyor",
   'head_of_surveying_service' => "Head of Surveying Service",
   'architect' => "Architect",
+  'junior_architect' => "Junior Architect",
   'deputy_head_surveying' => "Deputy head of surveying service",
   'interior_designer' => "Interior Designer",
   'highway_engineer' => "Highway Engineer",

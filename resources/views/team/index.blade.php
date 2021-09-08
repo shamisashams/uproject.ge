@@ -48,7 +48,7 @@
             <img src="../img/team/4.png" alt="" />
             <div class="caption">
                 <div class="name">Tina Bokuchava</div>
-                <div class="pos">{{__('client.architect')}}</div>
+                <div class="pos">{{__('client.junior_architect')}}</div>
             </div>
         </div>
     </a>
