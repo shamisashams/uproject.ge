@@ -28,11 +28,11 @@
         </a>
         <a href="#" class="flex">
             <img src="/storage/images/icons/contact/2.png" alt="" />
-            <div>+995 555 555 555</div>
+            <div>+(995) 557-044-343</div>
         </a>
         <a href="#" class="flex">
             <img src="/storage/images/icons/contact/3.png" alt="" />
-            <div>info@site.ge</div>
+            <div>office@uproject.ge</div>
         </a>
         <div class="flex sm">
             <a href="#"
