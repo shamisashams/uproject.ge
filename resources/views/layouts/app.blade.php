@@ -17,7 +17,7 @@
     <div class="header_top_slider flex">
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/1.png" alt=""/>
-            <div>+ (995) 555-123-456</div>
+            <div>+(995) 557-044-343</div>
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/2.png" alt=""/>
@@ -25,11 +25,11 @@
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/3.png" alt=""/>
-            <div>example@email.com</div>
+            <div>office@uproject.ge</div>
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/1.png" alt=""/>
-            <div>+ (995) 555-123-456</div>
+            <div>+(995) 557-044-343</div>
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/2.png" alt=""/>
@@ -37,14 +37,14 @@
         </a>
         <a href="#" class="flex info">
             <img src="/storage/images/icons/header/3.png" alt=""/>
-            <div>example@email.com</div>
+            <div>office@uproject.ge</div>
         </a>
     </div>
     <div class="top flex">
         <div class="flex left">
             <a href="#" class="flex info">
                 <img src="/storage/images/icons/header/1.png" alt=""/>
-                <div>+ (995) 555-123-456</div>
+                <div>+(995) 557-044-343</div>
             </a>
             <a href="#" class="flex info">
                 <img src="/storage/images/icons/header/2.png" alt=""/>
@@ -52,12 +52,12 @@
             </a>
             <a href="#" class="flex info">
                 <img src="/storage/images/icons/header/3.png" alt=""/>
-                <div>example@email.com</div>
+                <div>office@uproject.ge</div>
             </a>
-            <div class="flex info">
+            <!-- <div class="flex info">
                 <img src="/storage/images/icons/header/4.png" alt=""/>
                 <div>{{__('client.working_hours')}}</div>
-            </div>
+            </div> -->
         </div>
         <div class="flex right">
             <a href="#" class="sm"
@@ -115,7 +115,7 @@
             <a href="{{ route('contact',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('contact',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
-                   {{__('client.contact_us')}} 
+                   {{__('client.our_expertise')}} 
                 </div>
             </a>
         </div>
@@ -145,13 +145,13 @@
             <div class="poppins">
                 {{__('client.footer_paragraph')}}
             </div>
-            <div class="item time flex">
+            <!-- <div class="item time flex">
                 <img src="/storage/images/icons/header/4.png" alt=""/>
                 <div style="text-transform: uppercase">
                    {{__('client.open_days')}}  <br/>
                    {{__('client.closed_days')}} 
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="column">
             <div class="title bold">{{__('client.our_service')}}</div>
@@ -170,19 +170,16 @@
                     {{__('client.saburtalo')}}
                 </div>
             </a>
-            <a href="#" class="item flex">
+            <!-- <a href="#" class="item flex">
                 <img src="/storage/images/icons/header/1.png" alt=""/>
                 <div>
                     + (995) 555-123-456 <br/>
                     + (995) 555-123-456
                 </div>
-            </a>
+            </a> -->
             <a href="#" class="item flex">
                 <img src="/storage/images/icons/header/3.png" alt=""/>
-                <div>
-                    example@email.com <br/>
-                    info@email.com
-                </div>
+                <div>office@uproject.ge</div>
             </a>
         </div>
         <div class="column">

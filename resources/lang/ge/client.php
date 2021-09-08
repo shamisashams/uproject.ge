@@ -5,8 +5,8 @@
   'universal' => "UNIVERSAL",
   'project' => "PROJECT",
   'logo_subtitle' => "Road, Water, Architecture, Topography",
-  'home' => "Home",
-  'about_us' => "About us",
+  'home' => "მთავარი",
+  'about_us' => "ჩვენს შესახებ",
   'footer_paragraph' => "Lorem Ipsum is simply dummy text of the printing and typesetting
   industry. Lorem Ipsum has been the industry's standard dummy text
   ever since the 1500s, when an unknown printer took a galley of type
@@ -64,32 +64,21 @@
   'all_projects' => 'All Projects',
   'current_projects' => 'Current Projects',
   'completed_projects' => 'Completed projects',
-  'projects' => 'Projects',
+  'projects' => 'პროექტები',
   'view_all' => 'View All',
   'category' => 'Category',
   'gallery' => 'Gallery',
-  'blog' => 'Blog',
-  'team' => 'Team',
-  'about_us_title_1' => "Lorem Ipsum Is Simply Dummy text",
-  'about_us_title_2' => "unknown printer took a gallery",
-  'about_content1_p1' => "Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it to make a type specimen book. It has survived not
-  only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged.",
-  'about_content1_p2' => "Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it to make a type specimen book. It has survived not
-  only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged.",
-  'about_content2_p1' => "Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industry's standard dummy text
-  ever since the 1500s, when an unknown printer took a galley of type
-  and scrambled it to make a type specimen book. It has survived not
-  only five centuries, but also the leap into electronic typesetting,
-  remaining essentially unchanged.",
+  'blog' => 'ბლოგი',
+  'team' => 'გუნდი',
+  'about_us_title_1' => "უნივერსალ პროექტი",
+  'about_us_title_2' => "მიზანი და დაპირება",
+  'about_content1_p1' => "„უნივერსალ პროექტი“ სამშენებლო პროექტების მართვის კომპანიაა, რომელიც მომსახურების სრულ პაკეტს სთავაზობს მომხარებლებს. ინოვაციური მიდგომებით, გამოცდილი გუნდით და კომპეტენციის უმაღლესი ხარისხით, კომპანია ნებისმიერი სირთულის ამოცანის გადაჭრის 100%-იან გარანტიას იძლევა. ეს არის ახალი სახელწოდება და პოზოციონირება 70 წელზე მეტი გამოცდილების მქონე ბრენდის - „გზაკომუნ პროექტი და ექსპერტიზის“, რომელიც განახლებული მიდგომებით და ძალებით აპირებს ბაზარზე ფუნქციონირებას. ",
+  'about_content1_p2' => "დღეს „უნივერსალ პროექტი“ ძირითადად სპეციალიზდება გზების, წყლის სისტემების, დაპროექტებისა და ტოპოგრაფიული მიმართულების სამუშაოებზე. წინამორბედი კომპანიის მიერ წლების მაძილზე შესრულებული ამოცანები მოიცავს ისეთ სპეციფიკურ პროექტებს, როგორიცაა: საავტომობილო გზების მშენებლობა, ხიდების, გზაგამტარების, საყრდენი კედლების, წყალგამშვები მილების, საირიგაციო არხების, მიწისქვეშა და მიწისზედა გადასასვლელების, კანალიზაციის, კავშირგაბმულობის, ზვავსაწინააღმდეგო, მეწყერსაწინააღმდეგო, თბო/წყალ/ელექტრო მომარაგების და სხვა მსგავსი ტიპის ნაგებობების დაპროექტება. გარდა ამისა, კომპანიას უდიდესი გამოცდილება აქვს ყველა ჩამოთვლილი ნაგებობებისთვის საჭირო კვლევებისა და ანალიზების ჩატერების კუთხითაც.",  
+  'about_content1_p2_1' => "70-ზე მეტი წლის განმავლობაში, „გზაკომუნ პროექტი და ექსპერტიზის“ სახელზე 1 000-ზე მეტი საგზაო პროექტია ჩაბარებული, რომლის ჯამური სიგრძე 24 000 კილომეტრია. შესრულებული პროექტები მოიცავდა როგორც კვლევით, ასევე საპროექტო და სამშენებლო სამუშაოებს. ამის გარდა, კომპანიამ წლების მანძილზე დააპროექტა 500 ხიდი, რომლის საერთო სიგრძე 60 000 მეტრია.",
+  'about_content1_p2_2' => "„უნივერსალ პროექტის“ მომსახურება მრავალპროფილურია და სამშენებლო პროექტისთვის საჭირო ნებისმიერ სამუშაოს მოიცავს. კომპანია ზუსტ ვადებსა და ხარისხში აბარებს პროექტს, წინასწარი კვლევებით და დაპროექტებით დაწყებული, მშენებლობით დასრულებული.",
+  'about_content2_p1' => "„უნივერსალ პროექტის“, როგორც მაღალი კომპეტენციისა და პასუხისმგებლობის მქონე კომპანიის მიზანია, დამკვეთის ძალისხმევის მინიმუმამდე დაყვანა და წლების მანძილზე დაგროვებული გამოცდილების გამოყენებით, ამოცანის დეტალებში მაქსიმალურად შესვლა. კომპანიის ძირითადი დაპირება კი სრული პასუხისმგებლობის აღებას გულისხმობს, სამშენებლო პროცესის ნებისმიერი ეტაპსა და სამუშაოზე. ეს არის გუნდი, რომელსაც უბრალოდ აბარებ ამოცანას, შედეგად კი ზუსტად იმას იღებ, რაც წარმოდგენილი გქონდა.",
+  'about_content2_p1_1' => "„უნივერსალ პროექტი“აბსოლუტურ გარანტიას იძლევა შესრულებული სამუშაოების უმაღლეს ხარისზე. ამის მიზეზი კი ის მენეჯმენტია, რომელიც აერთიანებს პროფესიონალთა გუნდს და მრავალწლიან გამოცდილებას. დაარსებიდან დღემდე, გუნდი მუდმივად ახერხებს განვითარების ახალ ეტაპზე გადასვლას და ყოველთვის მზად არის გამოწვევებისთვის.",
+  'about_content2_p1_2' => "კომპანიისთვის, რომელსაც ამბიცია აქვს პირველობასა და კომპეტენციის უმაღლეს ხარისხზე, არ არსებობს ამოცანა, რომლის შესრულებაც საეჭვო ან შეუძლებელია.",
   'blog_showcase_para' => "In publishing and graphic design, Lorem ipsum is a placeholder text
   commonly used to demonstrate the visual form of a document or a
   typeface without relying on meaningful content.",

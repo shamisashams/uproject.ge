@@ -35,6 +35,12 @@
             <div class="para">
                 {{__('client.about_content1_p2')}}
             </div>
+            <div class="para">
+                {{__('client.about_content1_p2_1')}}
+            </div>
+            <div class="para">
+                {{__('client.about_content1_p2_2')}}
+            </div>
         </div>
     </div>
     <div class="flex">
@@ -46,6 +52,12 @@
             </div>
             <div class="para">
                 {{__('client.about_content2_p1')}}
+            </div>
+            <div class="para">
+                {{__('client.about_content2_p1_1')}}
+            </div>
+            <div class="para">
+                {{__('client.about_content2_p1_2')}}
             </div>
         </div>
         <div class="img_overlay">
