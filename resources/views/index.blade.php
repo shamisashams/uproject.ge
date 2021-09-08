@@ -87,11 +87,11 @@
 <section class="services_home wrapper margin_bottom">
     <div class="main_titles">
         <div class="title_bg bold">{{__('client.services')}}</div>
-        <div class="title bold main_blue">{{__('client.services')}}SERVICES</div>
+        <div class="title bold main_blue">{{__('client.services')}}</div>
     </div>
     <div class="service_boxes">
         <div class="service_box border">
-            <div class="text1 transition5">{{__('client.')}}</div>
+            <div class="text1 transition5">{{__('client.serbox_1_text1')}}</div>
             <div class="text2 bold main_blue transition5">
             {{__('client.serbox_1_text2')}}
             </div>
