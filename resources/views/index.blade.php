@@ -9,13 +9,13 @@
             <div class="showcase_overlay">
                 <div class="flex center hero_content wrapper">
                     <div class="text_bg bold">{{__('client.universal_project')}}</div>
-                    <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div>
-                    <div class="title bold">
+                    <!-- <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div> -->
+                    <!-- <div class="title bold">
                         {{__('client.hero_slide_title_1')}}
-                    </div>
-                    <div class="sub_title dc" style="max-width: 609px">
+                    </div> -->
+                    <!-- <div class="sub_title dc" style="max-width: 609px">
                        {{__('client.hero_slide_subtitle_1')}} 
-                    </div>
+                    </div> -->
                     <div class="hero_btns flex">
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
@@ -31,14 +31,14 @@
             <img class="bg" src="{{ asset('/storage/images/hero/2.png') }}" alt="" />
             <div class="showcase_overlay">
                 <div class="flex center hero_content wrapper">
-                    <div class="text_bg bold">{{__('client.universal_project')}}</div>
-                    <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div>
-                    <div class="title bold">
+                   <div class="text_bg bold">{{__('client.universal_project')}}</div>
+                    <!-- <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div> -->
+                    <!-- <div class="title bold">
                         {{__('client.hero_slide_title_2')}}
-                    </div>
-                    <div class="sub_title dc" style="max-width: 609px">
+                    </div> -->
+                    <!-- <div class="sub_title dc" style="max-width: 609px">
                         {{__('client.hero_slide_subtitle_2')}}
-                    </div>
+                    </div> -->
                     <div class="hero_btns flex">
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
@@ -55,13 +55,13 @@
             <div class="showcase_overlay">
                 <div class="flex center hero_content wrapper">
                     <div class="text_bg bold">{{__('client.universal_project')}}</div>
-                    <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div>
-                    <div class="title bold">
+                    <!-- <div class="ab_title bold">{{__('client.welcome_to')}} {{__('client.universal_project')}}</div> -->
+                    <!-- <div class="title bold">
                         {{__('client.hero_slide_title_3')}}
-                    </div>
-                    <div class="sub_title dc" style="max-width: 609px">
+                    </div> -->
+                    <!-- <div class="sub_title dc" style="max-width: 609px">
                         {{__('client.hero_slide_subtitle_3')}}
-                    </div>
+                    </div> -->
                     <div class="hero_btns flex">
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
@@ -201,7 +201,7 @@
         <div class="service_box border">
             <div class="text1 transition5">{{__('client.serbox_4_text1')}}</div>
             <div class="text2 bold main_blue transition5">
-                {{__('client.serbox_4_text4')}}
+                {{__('client.serbox_4_text2')}}
             </div>
             <a href="#">
                 <button class="plus flex center transition5">

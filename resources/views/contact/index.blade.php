@@ -2,14 +2,7 @@
 @section('content')
 
 <section class="contact_showcase margin_bottom">
-    <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.6452450233633!2d44.770133515678246!3d41.72817338276172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472ddadc78fb3%3A0x9f529d5044be3023!2sZhiuli%20Shartava%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1623659355947!5m2!1sen!2sge"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        ></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.860468192836!2d44.796761015677724!3d41.701947784397774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cddd34b9b5d%3A0xb163d7173534f617!2z4YOb4YOQ4YOg4YOYIOGDkeGDoOGDneGDoeGDlOGDoSDhg6Xhg6Phg6nhg5AsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1631511858655!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 
 <section class="contant_page wrapper flex margin_bottom">
@@ -170,24 +163,24 @@
         <div class="grid">
             <div class="input border">
                 <label for="">{{__('client.first_name')}}</label>
-                <input type="text" placeholder="Enter your name" />
+                <input type="text" placeholder="{{__('client.enter_first_name')}}" />
             </div>
             <div class="input border">
-                <label for="">{{__('client.first_name')}}</label>
-                <input type="text" placeholder="Enter your name" />
+                <label for="">{{__('client.last_name')}}</label>
+                <input type="text" placeholder="{{__('client.enter_last_name')}}" />
             </div>
             <div class="input border">
-                <label for="">{{__('client.first_name')}}</label>
-                <input type="text" placeholder="Enter your name" />
+                <label for="">{{__('client.phone_number')}}</label>
+                <input type="number" placeholder="{{__('client.enter_phone_number')}}" />
             </div>
             <div class="input border">
-                <label for="">{{__('client.first_name')}}</label>
-                <input type="text" placeholder="Enter your name" />
+                <label for="">{{__('client.email_address')}}</label>
+                <input type="email" placeholder="{{__('client.enter_email_address')}}" />
             </div>
         </div>
         <div class="input">
-            <label for="">{{__('client.first_name')}}</label>
-            <textarea class="border" placeholder="Enter your name"></textarea>
+            <label for="">{{__('client.long_contact_text')}}</label>
+            <textarea class="border" placeholder="{{__('client.enter_long_contact_text')}}"></textarea>
         </div>
         <button class="main_btn">{{__('client.send_messages')}}</button>
     </div>

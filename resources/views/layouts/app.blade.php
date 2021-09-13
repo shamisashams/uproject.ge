@@ -119,7 +119,7 @@
                 </div>
             </a>
         </div>
-        <button id="menu_btn"></button>
+        <!-- <button id="menu_btn"></button>
         <div class="languages red_bg part flex center">
             <img src="/storage/images/icons/header/5.png" alt=""/>
             <div class="dropdown">
@@ -132,7 +132,7 @@
                 <a class="lang {{ app()->getLocale() == 'fr' ? 'on': '' }}"
                    href="/{{'fr'.substr(request()->path(), 2)}}">FRA</a>
             </div>
-        </div>
+        </div> -->
     </div>
 </header>
 
@@ -142,9 +142,9 @@
     <div class="wrapper flex">
         <div class="column">
             <a href="#" class="logo medium">{{__('client.universal')}}  <span>{{__('client.project')}}</span> </a>
-            <div class="poppins">
+            <!-- <div class="poppins">
                 {{__('client.footer_paragraph')}}
-            </div>
+            </div> -->
             <!-- <div class="item time flex">
                 <img src="/storage/images/icons/header/4.png" alt=""/>
                 <div style="text-transform: uppercase">
@@ -185,14 +185,7 @@
         <div class="column">
             <div class="title bold">{{__('client.our_location')}}</div>
             <div class="map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.6452450233633!2d44.770133515678246!3d41.72817338276172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472ddadc78fb3%3A0x9f529d5044be3023!2sZhiuli%20Shartava%20St%2C%20T&#39;bilisi!5e0!3m2!1sen!2sge!4v1623659355947!5m2!1sen!2sge"
-                    width="600"
-                    height="450"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                ></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.860468192836!2d44.796761015677724!3d41.701947784397774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cddd34b9b5d%3A0xb163d7173534f617!2z4YOb4YOQ4YOg4YOYIOGDkeGDoOGDneGDoeGDlOGDoSDhg6Xhg6Phg6nhg5AsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1631511858655!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
             </div>
         </div>
     </div>

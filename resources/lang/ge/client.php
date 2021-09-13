@@ -1,6 +1,6 @@
 <?php return array (
   'universal_project' => 'UNIVERSAL PROJECT',
-  'the_address' => "Georgia, Tbilisi - Marie Brosse #2",
+  'the_address' => "საქართველო, თბილისი - მარი ბროსეს #2",
   'working_hours' => "Mon - Sat 8:00 - 17:30, Sunday - CLOSED",
   'universal' => "UNIVERSAL",
   'project' => "PROJECT",
@@ -14,15 +14,15 @@
   only five centuries,",
   'open_days' => "Mon - Sat 8:00 - 17:30,",
   'closed_days' => "Sunday - CLOSED",
-  'our_service' => "Our Services",
+  'our_service' => "ჩვენი სერვისები",
   'chemical_engineering' => "Chemical Engineering Projects",
   'mining_engineering' => "Mining Engineering Construction",
   'welding_engineering' => "Engineering Welding Engineering",
   'space_program_xyz' => "Space Program XYZ",
-  'office_in_tbilisi' => "Office in Tbilisi",
-  'georgia_tbilisi' => "Georgia, Tbilisi,",
-  'saburtalo' => "Marie Brosse #2",
-  'our_location' => "Our Locations",
+  'office_in_tbilisi' => "თბილისის ოფისი",
+  'georgia_tbilisi' => "საქართველო, თბილისი ",
+  'saburtalo' => "მარი ბროსეს #2",
+  'our_location' => "ჩვენი ლოკაცია",
   'welcome_to' => 'welcome to ',
   'hero_slide_title_1' => 'Chill out What You Yelling For Lay Back its all Been',
   'hero_slide_subtitle_1' => 'been the industrys standard dummy text ever since the 1500s,
@@ -34,40 +34,32 @@
   Esse, ipsum iure quae laudantium iusto minima maiores doloribus
   totam fuga ipsa magni autem unde ut cumque odio quam laboriosam,
   pariatur amet?',
-  'hero_slide_title_3' => 'Or what Dummy text i got  No Idea Lorem LKorn X gray No Way',
+  'hero_slide_title_3' => 'Or what Dummy text i got No Idea Lorem LKorn X gray No Way',
   'hero_slide_subtitle_3' => 'Standard dummyLorem Ipsum is simply dummy text of the printing
   and typesetting industry. Lorem Ipsum has standard dummystandard
   dummybeen the industrys standard dummy text ever since the
   1500s,',
-  'read_more' => 'Read More',
-  'contact_us' => 'Contact Us',
-  'our_expertise' => 'Our Expertise',
-  'services' => 'SERVICES',
-  'serbox_1_text1' => 'explore the features',
+  'read_more' => 'მეტი',
+  'contact_us' => 'დაგვიკავშირდით',
+  'our_expertise' => 'ჩვენი ექსპერტიზა',
+  'services' => 'სერვისები',
+  'serbox_1_text1' => 'საგზაო და მიწის სამუშაოები',
   'serbox_1_text2' => 'Lorem Ipsum is simply1',
-  'serbox_2_text1' => 'serbox_2_text1',
+  'serbox_2_text1' => 'წყალსადენები და სანიაღვრე-სადრენაჟე სისტემები',
   'serbox_2_text2' => 'serbox_2_text2',
-  'serbox_3_text1' => 'serbox_3_text1',
+  'serbox_3_text1' => 'გეოლოგიური კვლევები',
   'serbox_3_text2' => 'serbox_3_text2',
-  'serbox_4_text1' => 'serbox_4_text1',
+  'serbox_4_text1' => 'არქიტექტურა, ლანდშაფტისა და ინტერიერის დიზაინი',
   'serbox_4_text2' => 'serbox_4_text2',
-  'who_we_are' => 'Who We Are',
-  'who_we_are_content' => 'Lorem Ipsum is simply dummy text of the printing and typesetting
-  industry. Lorem Ipsum has been the industrys standard dummy text ever
-  since the 1500s, when an unknown printer took a galley of type and
-  scrambled it to make a type specimen book. It has survived not only
-  five centuries, Lorem Ipsum is simply dummy text of the printing and
-  typesetting industry. Lorem Ipsum has been the industrys standard
-  dummy text ever since the 1500s, when an unknown printer took a galley
-  of type and scrambled it to make a type specimen book. It has survived
-  not only five centuries,',
-  'all_projects' => 'All Projects',
-  'current_projects' => 'Current Projects',
-  'completed_projects' => 'Completed projects',
+  'who_we_are' => 'ჩვენს შესახებ',
+  'who_we_are_content' => '„უნივერსალ პროექტი“ სამშენებლო პროექტების მართვის კომპანიაა, რომელიც მომსახურების სრულ პაკეტს სთავაზობს მომხარებლებს. ინოვაციური მიდგომებით, გამოცდილი გუნდით და კომპეტენციის უმაღლესი ხარისხით, კომპანია ნებისმიერი სირთულის ამოცანის გადაჭრის 100%-იან გარანტიას იძლევა. ეს არის ახალი სახელწოდება და პოზოციონირება 70 წელზე მეტი გამოცდილების მქონე ბრენდის - „გზაკომუნ პროექტი და ექსპერტიზის“, რომელიც განახლებული მიდგომებით და ძალებით აპირებს ბაზარზე ფუნქციონირებას.',
+  'all_projects' => ' ჯამური პროექტი',
+  'current_projects' => ' მიმდინარე პროექტი',
+  'completed_projects' => ' დასრულებული პროექტი',
   'projects' => 'პროექტები',
-  'view_all' => 'View All',
-  'category' => 'Category',
-  'gallery' => 'Gallery',
+  'view_all' => 'ყველას ნახვა',
+  'category' => 'კატეგორია',
+  'gallery' => 'გალერეა',
   'blog' => 'ბლოგი',
   'team' => 'გუნდი',
   'about_us_title_1' => "უნივერსალ პროექტი",
@@ -83,15 +75,24 @@
   'blog_showcase_para' => "In publishing and graphic design, Lorem ipsum is a placeholder text
   commonly used to demonstrate the visual form of a document or a
   typeface without relying on meaningful content.",
-  'messages' => "Messages",
+  'messages' => "კონტაქტი",
   'contact_paragraph' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio.
   Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
   Suspendisse urna viverra non, semper suscipit, posuere a, pede. Donec
   nec justo eget felis facilisis fermentum. Aliquam porttitor",
-  'the_office' => "The Office",
-  'got_any_questions' => "Got Any Questions?",
-  'first_name' => "First name",
-  'send_messages' => "Send Messages",
+  'the_office' => "ოფისი",
+  'got_any_questions' => "გაქვთ რამე შეკითხვა?",
+  'first_name' => "სახელი",
+  'enter_first_name' => "შეიყვანეთ სახელი",
+  'last_name' => "გვარი",
+  'enter_last_name' => "შეიყვანეთ გვარი",
+  'email_address' => "Email",
+  'enter_email_address' => "შეიყვანეთ Email მისამართი",
+  'phone_number' => "ტელეფონის ნომერი",
+  'enter_phone_number' => "შეიყვანეთ ტელეფონის ნომერი",
+  'long_contact_text' => "შეტყობინება",
+  'enter_long_contact_text' => "გთხოვთ შეიყვანით ტექსტი",
+  'send_messages' => "გაგზავნა",
   'projects_showcase_para' => " Projects in Universal Project In publishing and graphic design, Lorem ipsum is a placeholder text
   commonly used to demonstrate the visual form of a document or a
   typeface without relying on meaningful content.",
@@ -198,7 +199,7 @@
   of Letraset sheets containing Lorem Ipsum passages, and more recently
   with desktop publishing software like Aldus PageMaker including versions
   of Lorem Ipsum.",
-  'our_team' => "OUR TEAM",
+  'our_team' => "ჩვენი გუნდი",
   'team_showcase_para' => "Our Team In publishing and graphic design, Lorem ipsum is a placeholder text
   commonly used to demonstrate the visual form of a document or a
   typeface without relying on meaningful content.",
