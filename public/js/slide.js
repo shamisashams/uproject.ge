@@ -136,6 +136,7 @@ $(".header_top_slider").slick({
     autoplay: true,
     autoplaySpeed: 0,
     cssEase: "linear ",
+    variableWidth: true,
     responsive: [
         {
             breakpoint: 700,
