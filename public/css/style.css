@@ -1550,7 +1550,7 @@ img {
     }
 
     .main_showcases {
-        padding-top: 85px;
+        padding-top: 70px;
         height: 480px;
     }
 }
@@ -1571,7 +1571,7 @@ img {
     }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 600px) {
     .main_showcases {
         height: 290px;
     }
@@ -1649,7 +1649,7 @@ img {
         width: 30px;
         background-color: #013448;
         border-radius: 1px;
-        right: 90px;
+        right: 15px;
         top: calc(50% - 1px);
         transition: 0.2s;
     }
@@ -1721,10 +1721,6 @@ img {
 @media screen and (max-width: 500px) {
     .header .languages {
         width: 55px;
-    }
-
-    #menu_btn {
-        right: 62px;
     }
 
     .header .bottom {
@@ -2490,5 +2486,15 @@ img {
     .teamview_page .bio .para {
         margin-bottom: 13px;
         font-size: 14px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .main_titles .title_bg {
+        font-size: 45px;
+    }
+    .main_titles .title {
+        font-size: 35px;
+        margin-top: -40px;
+        margin-left: 17px;
     }
 }

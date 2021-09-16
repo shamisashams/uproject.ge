@@ -119,8 +119,8 @@
                 </div>
             </a>
         </div>
-        <!-- <button id="menu_btn"></button>
-        <div class="languages red_bg part flex center">
+         <button id="menu_btn"></button>
+       <!-- <div class="languages red_bg part flex center">
             <img src="/storage/images/icons/header/5.png" alt=""/>
             <div class="dropdown">
                 <a class="lang {{ app()->getLocale() == 'en' ? 'on': '' }}"
