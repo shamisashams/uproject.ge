@@ -83,12 +83,10 @@
                                         <a href="{{route('adminBlogEditView',[app()->getLocale(),$blog->id])}}"><i
                                                 class="material-icons">edit</i></a>
                                         <a href="{{route('adminBlogShow',[app()->getLocale(),$blog->id])}}"><i class="material-icons">remove_red_eye</i></a>
-                                        {!! Form::open(['url' => route('adminBlogDestroy',[app()->getLocale(),$blog->id]),'method' =>'delete','style'=>'display:inline-block']) !!}
-                                        <a onclick="deleteAlert(this, 'Are you sure, you want to delete this item?!');"
+                                        <a href="{{route('adminBlogDestroy',[app()->getLocale(),$blog->id])}}" onclick="return confirm ('Are you sure, you want to delete this item?!');"
                                            type="submit">
                                             <i class="material-icons dp48">delete</i>
                                         </a>
-                                        {!! Form::close() !!}
                                     </td>
                                 </tr>
                                 @endforeach

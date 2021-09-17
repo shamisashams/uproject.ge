@@ -62,8 +62,10 @@
                      ->name('create', 'adminBlogCreateView')
                      ->name('show', 'adminBlogShow')
                      ->name('edit', 'adminBlogEditView')
-                     ->name('update', 'adminBlogUpdate')
-                     ->name('destroy', 'adminBlogDestroy');
+                     ->name('update', 'adminBlogUpdate');
          });
+         Route::get('blog/{blog}/destroy', [AdminBlogController::class, 'destroy'])->name('adminBlogDestroy');
+
+
      });
  });

@@ -22,7 +22,7 @@
 
                                             <tr>
                                                 <td>{{trans('admin.content')}}:</td>
-                                                <td class="users-view-latest-activity">{{$blogItem->content}}</td>
+                                                <td class="users-view-latest-activity">{!!$blogItem->content!!}</td>
                                             </tr>
 
                                             <tr>
