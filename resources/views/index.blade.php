@@ -20,9 +20,9 @@
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
 {{--                        </a>--}}
-                        <a href="{{route('contact',app()->getLocale())}}">
+                        <!-- <a href="{{route('contact',app()->getLocale())}}">
                             <button class="main_btn contact">{{__('client.contact_us')}}</button>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -43,9 +43,9 @@
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
 {{--                        </a>--}}
-                        <a href="{{route('contact',app()->getLocale())}}">
+                        <!-- <a href="{{route('contact',app()->getLocale())}}">
                             <button class="main_btn contact">{{__('client.contact_us')}}</button>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -66,9 +66,9 @@
 {{--                        <a href="#">--}}
 {{--                            <button class="main_btn read_more">{{__('client.read_more')}}</button>--}}
 {{--                        </a>--}}
-                        <a href="{{route('contact',app()->getLocale())}}">
+                        <!-- <a href="{{route('contact',app()->getLocale())}}">
                             <button class="main_btn contact">{{__('client.contact_us')}}</button>
-                        </a>
+                        </a> -->
                     </div>
                 </div>
             </div>
@@ -255,8 +255,8 @@
 <section class="project_count flex wrapper">
     <div class="counts">
         <div class="main_titles">
-            <div class="title_bg bold">154</div>
-            <div class="title bold main_blue"><span>154</span>{{__('client.all_projects')}}</div>
+            <div class="title_bg bold">1247</div>
+            <div class="title bold main_blue"><span>1247</span>{{__('client.all_projects')}}</div>
         </div>
     </div>
     <div class="counts">
@@ -269,9 +269,9 @@
     </div>
     <div class="counts">
         <div class="main_titles">
-            <div class="title_bg bold">118</div>
+            <div class="title_bg bold">1211</div>
             <div class="title bold main_blue">
-                <span>118</span>{{__('client.completed_projects')}}
+                <span>1211</span>{{__('client.completed_projects')}}
             </div>
         </div>
     </div>
@@ -293,79 +293,79 @@
                 <div class="img_overlay">
                     <img src="img/projects/1/3.png" alt="" />
                 </div>
-                <div class="category bold">{{__('client.category')}}</div>
-                <div class="name">{{__('client.project_slide_1_name')}}</div>
-                <div class="dc">
+                <!-- <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_1_name')}}</div> -->
+                <!-- <div class="dc">
                     {{__('client.project_slide_1_para')}}
-                </div>
-                <a href="project-view.html" class="read_more_rotate medium"
+                </div> -->
+                <!-- <a href="project-view.html" class="read_more_rotate medium"
                    >{{__('client.read_more')}}</a
-                >
+                > -->
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/2/4.png" alt="" />
                 </div>
-                <div class="category bold">{{__('client.category')}}</div>
-                <div class="name">{{__('client.project_slide_2_name')}}</div>
-                <div class="dc">
+                <!-- <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_2_name')}}</div> -->
+                <!-- <div class="dc">
                    {{__('client.project_slide_2_para')}} 
-                </div>
-                <a href="project-view.html" class="read_more_rotate medium"
+                </div> -->
+                <!-- <a href="project-view.html" class="read_more_rotate medium"
                    >{{__('client.read_more')}}</a
-                >
+                > -->
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/3/2.png" alt="" />
                 </div>
-                <div class="category bold">{{__('client.category')}}</div>
-                <div class="name">{{__('client.project_slide_3_name')}}</div>
-                <div class="dc">
+                <!-- <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_3_name')}}</div> -->
+                <!-- <div class="dc">
                     {{__('client.project_slide_3_para')}}
-                </div>
-                <a href="project-view.html" class="read_more_rotate medium"
+                </div> -->
+                <!-- <a href="project-view.html" class="read_more_rotate medium"
                    >{{__('client.read_more')}}</a
-                >
+                > -->
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/4/6.png" alt="" />
                 </div>
-                <div class="category bold">{{__('client.category')}}</div>
-                <div class="name">{{__('client.project_slide_4_name')}}</div>
-                <div class="dc">
+                <!-- <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_4_name')}}</div> -->
+                <!-- <div class="dc">
                     {{__('client.project_slide_4_para')}}
-                </div>
-                <a href="project-view.html" class="read_more_rotate medium"
+                </div> -->
+                <!-- <a href="project-view.html" class="read_more_rotate medium"
                    >{{__('client.read_more')}}</a
-                >
+                > -->
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/5/3.png" alt="" />
                 </div>
-                <div class="category bold">{{__('client.category')}}</div>
-                <div class="name">{{__('client.project_slide_5_name')}}</div>
-                <div class="dc">
+                <!-- <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_5_name')}}</div> -->
+                <!-- <div class="dc">
                     {{__('client.project_slide_5_para')}}
-                </div>
-                <a href="project-view.html" class="read_more_rotate medium"
+                </div> -->
+                <!-- <a href="project-view.html" class="read_more_rotate medium"
                    >{{__('client.read_more')}}</a
-                >
+                > -->
             </div>
             <div class="item">
                 <div class="img_overlay">
                     <img src="img/projects/7/1.png" alt="" />
                 </div>
-                <div class="category bold">{{__('client.category')}}</div>
-                <div class="name">{{__('client.project_slide_6_name')}}</div>
-                <div class="dc">
+                <!-- <div class="category bold">{{__('client.category')}}</div>
+                <div class="name">{{__('client.project_slide_6_name')}}</div> -->
+                <!-- <div class="dc">
                    {{__('client.project_slide_6_para')}} 
-                </div>
-                <a href="project-view.html" class="read_more_rotate medium"
+                </div> -->
+                <!-- <a href="project-view.html" class="read_more_rotate medium"
                    >{{__('client.read_more')}}</a
-                >
+                > -->
             </div>
         </div>
         <button class="arr" id="project_prev">
@@ -563,24 +563,15 @@
     </div>
     
     <div class="team_list flex team_grid">
-    <a href="{{ route('teamView',app()->getLocale()) }}">
+        <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="img/team/1.png" alt="" />
+            <img src="../img/team/10.png" alt="" />
             <div class="caption">
-            <div class="name">Alexandre Kavelashvili</div>
-            <div class="pos">{{__('client.chief_surveyor')}}</div>
+                <div class="name">George Tsimakuridze </div>
+                <div class="pos">{{__('client.technical_manager')}}</div>
             </div>
         </div>
-        </a>
-        <a href="{{ route('teamView',app()->getLocale()) }}">
-            <div class="img_overlay">
-                <img src="img/team/2.png" alt="" />
-                <div class="caption">
-                <div class="name">Anzor Mamrashi </div>
-                <div class="pos">{{__('client.head_of_surveying_service')}}</div>
-                </div>
-            </div>
-        </a>
+    </a>
         <a href="{{ route('teamView',app()->getLocale()) }}">
             <div class="img_overlay">
                 <img src="img/team/7.png" alt="" />

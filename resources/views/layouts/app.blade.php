@@ -157,8 +157,8 @@
             <div class="title bold">{{__('client.our_service')}}</div>
             <a class="item link" href="#">{{__('client.chemical_engineering')}}</a>
             <a class="item link" href="#">{{__('client.mining_engineering')}}</a>
-            <a class="item link" href="#">{{__('client.welding_engineering')}}</a>
-            <a class="item link" href="#">{{__('client.welding_engineering')}}</a>
+            <a class="item link" href="#">{{__('client.welding_engineering')}}</a><!-- 
+            <a class="item link" href="#">{{__('client.welding_engineering')}}</a> -->
             <a class="item link" href="#">{{__('client.space_program_xyz')}}</a>
         </div>
         <div class="column">

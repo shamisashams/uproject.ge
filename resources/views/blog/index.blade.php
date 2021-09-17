@@ -10,9 +10,9 @@
                 <div class="title_bg bold">{{__('client.blog')}}</div>
                 <div class="title bold white">{{__('client.blog')}}</div>
             </div>
-            <div class="paragraph dc">
+            <!-- <div class="paragraph dc">
                 {{__('client.blog_showcase_para')}}
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
