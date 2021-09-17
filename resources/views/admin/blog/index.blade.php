@@ -69,7 +69,7 @@
                                 <tr>
                                     <td>{{$blog->id}}</td>
                                     <td>{{ $blog->title }}</td>
-                                    <td>{{ substr($blog->content,0,50) }}</td>
+                                    <td>{{ substr(strip_tags($blog->content),0,50) }}</td>
                                     <td>
                                         @if($blog->status)
                                         <span
@@ -97,7 +97,7 @@
                         </table>
 
                         {!! Form::close() !!}
-                        {{ $blogs->links('admin.vendor.pagination.custom') }} 
+                        {{ $blogs->links('admin.vendor.pagination.custom') }}
 
                     </div>
                 </div>

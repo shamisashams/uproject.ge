@@ -2,8 +2,8 @@
 
  namespace App\Repositories;
 
+ use App\Http\Requests\BlogRequest;
  use Illuminate\Http\Request;
- use App\Http\Requests\Admin\BlogRequest;
 
  interface BlogRepositoryInterface
  {
@@ -16,4 +16,3 @@
 
      public function delete(int $id);
  }
- 

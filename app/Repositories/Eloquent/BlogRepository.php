@@ -2,6 +2,7 @@
 
  namespace App\Repositories\Eloquent;
 
+ use App\Http\Requests\BlogRequest;
  use App\Models\Blog;
  use App\Repositories\Eloquent\Base\BaseRepository;
  use App\Repositories\BlogRepositoryInterface;
@@ -9,7 +10,6 @@
  use App\Traits\RequestFilter;
  use Illuminate\Support\Facades\DB;
  use App\Models\Language;
- use App\Http\Requests\Admin\BlogRequest;
  use Illuminate\Support\Facades\Storage;
 
  class BlogRepository extends BaseRepository implements BlogRepositoryInterface
@@ -61,7 +61,7 @@
                  foreach ($request->file('images') as $key => $file) {
                      $imagename = date('Ymhs') . $file->getClientOriginalName();
                      $destination = base_path() . '/storage/app/public/blog/' . $blogItem->id;
-                     
+
                      $request->file('images')[$key]->move($destination, $imagename);
                      $blogItem->files()->create([
                          'name' => $imagename,
@@ -147,4 +147,3 @@
      }
 
  }
- 
