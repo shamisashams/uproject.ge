@@ -91,6 +91,7 @@
     </div>
     <div class="service_boxes">
         <div class="service_box border">
+            <img class='serbox_bg' src="img/projects/2/1.png" alt="">
             <div class="text1 transition5">{{__('client.serbox_1_text1')}}</div>
             <div class="text2 bold main_blue transition5">
             {{__('client.serbox_1_text2')}}
@@ -127,6 +128,7 @@
             <span></span>
         </div>
         <div class="service_box border">
+            <img class='serbox_bg' src="img/projects/2/2.png" alt="">
             <div class="text1 transition5">{{__('client.serbox_2_text1')}}</div>
             <div class="text2 bold main_blue transition5">
                 {{__('client.serbox_2_text2')}}
@@ -163,6 +165,7 @@
             <span></span>
         </div>
         <div class="service_box border">
+            <img class='serbox_bg' src="img/projects/1/3.png" alt="">
             <div class="text1 transition5">{{__('client.serbox_3_text1')}}</div>
             <div class="text2 bold main_blue transition5">
                 {{__('client.serbox_3_text2')}}
@@ -199,6 +202,7 @@
             <span></span>
         </div>
         <div class="service_box border">
+            <img class='serbox_bg' src="img/projects/3/1.png" alt="">
             <div class="text1 transition5">{{__('client.serbox_4_text1')}}</div>
             <div class="text2 bold main_blue transition5">
                 {{__('client.serbox_4_text2')}}
@@ -562,8 +566,8 @@
         </a>
     </div>
     
-    <div class="team_list flex team_grid">
-    <a href="{{ route('teamView',app()->getLocale()) }}">
+    <div class="team_list flex team_grid team_slider_home">
+        <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
             <img src="img/team/1.png" alt="" />
             <div class="caption">
@@ -583,7 +587,7 @@
         </a>
         <a href="{{ route('teamView',app()->getLocale()) }}">
             <div class="img_overlay">
-                <img src="img/team/7.png" alt="" />
+                <img src="img/team/3.png" alt="" />
                 <div class="caption">
                 <div class="name">Maka Mdzhavanadze </div>
                 <div class="pos">{{__('client.chief_engineer')}}</div>
@@ -592,7 +596,34 @@
         </a>
         <a href="{{ route('teamView',app()->getLocale()) }}">
             <div class="img_overlay">
-                <img src="img/team/11.png" alt="" />
+                <img src="img/team/4.png" alt="" />
+                <div class="caption">
+                <div class="name">Giorgi Ebanoidze</div>
+                <div class="pos">{{__('client.senior_engineer')}} </div>
+                </div>
+            </div>
+        </a>
+        <a href="{{ route('teamView',app()->getLocale()) }}">
+            <div class="img_overlay">
+                <img src="img/team/5.png" alt="" />
+                <div class="caption">
+                <div class="name">Giorgi Ebanoidze</div>
+                <div class="pos">{{__('client.senior_engineer')}} </div>
+                </div>
+            </div>
+        </a>
+        <a href="{{ route('teamView',app()->getLocale()) }}">
+            <div class="img_overlay">
+                <img src="img/team/6.png" alt="" />
+                <div class="caption">
+                <div class="name">Giorgi Ebanoidze</div>
+                <div class="pos">{{__('client.senior_engineer')}} </div>
+                </div>
+            </div>
+        </a>
+        <a href="{{ route('teamView',app()->getLocale()) }}">
+            <div class="img_overlay">
+                <img src="img/team/7.png" alt="" />
                 <div class="caption">
                 <div class="name">Giorgi Ebanoidze</div>
                 <div class="pos">{{__('client.senior_engineer')}} </div>

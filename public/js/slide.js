@@ -123,6 +123,42 @@ $(".blog_slider").slick({
         },
     ],
 });
+$(".team_slider_home").slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    draggable: true,
+    arrows: false,
+    // prevArrow: "#prev_blog",
+    // nextArrow: "#next_blog",
+    dots: false,
+    speed: 1000,
+    infinite: true,
+    cssEase: "linear",
+    touchThreshold: 100,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    responsive: [
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+            },
+        },
+        {
+            breakpoint: 900,
+            settings: {
+                slidesToShow: 2,
+            },
+        },
+        {
+            breakpoint: 500,
+            settings: {
+                slidesToShow: 1,
+                centerMode: true,
+            },
+        },
+    ],
+});
 
 $(".header_top_slider").slick({
     slidesToShow: 4,
