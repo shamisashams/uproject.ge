@@ -1,7 +1,12 @@
 @extends('layouts.app')
 @section('content')
 
-<section class="contact_showcase margin_bottom">
+
+
+<!-- old contact -->
+
+
+<!-- <section class="contact_showcase margin_bottom">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.860468192836!2d44.796761015677724!3d41.701947784397774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cddd34b9b5d%3A0xb163d7173534f617!2z4YOb4YOQ4YOg4YOYIOGDkeGDoOGDneGDoeGDlOGDoSDhg6Xhg6Phg6nhg5AsIOGDl-GDkeGDmOGDmuGDmOGDoeGDmA!5e0!3m2!1ska!2sge!4v1631511858655!5m2!1ska!2sge" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </section>
 
@@ -184,6 +189,6 @@
         </div>
         <button class="main_btn">{{__('client.send_messages')}}</button>
     </div>
-</section>
+</section> -->
 
 @endsection

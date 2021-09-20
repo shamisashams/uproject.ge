@@ -16,8 +16,8 @@
 </section>
 
 <section class="projects_page wrapper">
+    <div class='comingsoon'>All projects will be added soon</div>
     <div class="project_grid">
-        <h1>Under Development...</h1>
     <!-- <a href="{{route('projectDetails',app()->getLocale())}}">
           <div class="img_overlay">
             <img src="../img/projects/1/1.png" alt="" />

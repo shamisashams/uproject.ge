@@ -18,9 +18,10 @@
 </section>
 
 <section class="blogs_page wrapper">
+    <div class='comingsoon'>Coming soon...</div>
     @if(count($blogs))
     @foreach($blogs as $blog)
-    <div class="blog_item">
+    <!-- <div class="blog_item">
         @if(count($blog->files) > 0)
 
         <img  src="/storage/blog/{{$blog->files[0]->fileable_id}}/{{$blog->files[0]->name}}" alt="" />
@@ -35,7 +36,7 @@
                >{{__('client.read_more')}}</a
             >
         </div>
-    </div>
+    </div> -->
     @endforeach
     @endif
 

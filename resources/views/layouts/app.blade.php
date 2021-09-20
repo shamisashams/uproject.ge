@@ -112,12 +112,12 @@
                     {{__('client.about_us')}}
                 </div>
             </a>
-            <!-- <a href="{{ route('contact',app()->getLocale()) }}">
+            <a href="{{ route('contact',app()->getLocale()) }}">
                 <div
                     class="nav main_blue flex center {{str_contains(request()->path(),substr(parse_url(route('contact',app()->getLocale()), PHP_URL_PATH), 1))?"current":""}}">
                    {{__('client.our_expertise')}} 
                 </div>
-            </a> -->
+            </a>
         </div>
          <button id="menu_btn"></button>
        <!-- <div class="languages red_bg part flex center">
@@ -157,8 +157,8 @@
             <div class="title bold">{{__('client.our_service')}}</div>
             <a class="item link" href="#">{{__('client.chemical_engineering')}}</a>
             <a class="item link" href="#">{{__('client.mining_engineering')}}</a>
-            <a class="item link" href="#">{{__('client.welding_engineering')}}</a><!-- 
-            <a class="item link" href="#">{{__('client.welding_engineering')}}</a> -->
+            <a class="item link" href="#">{{__('client.welding_engineering')}}</a>
+            <a class="item link" href="#">{{__('client.welding_engineering')}}</a>
             <a class="item link" href="#">{{__('client.space_program_xyz')}}</a>
         </div>
         <div class="column">

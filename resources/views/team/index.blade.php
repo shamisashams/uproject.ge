@@ -22,6 +22,7 @@
             <div class="caption">
                 <div class="name">George Tsimakuridze </div>
                 <div class="pos">{{__('client.technical_manager')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -31,6 +32,7 @@
             <div class="caption">
                 <div class="name">Vakho Tabatadze</div>
                 <div class="pos">{{__('client.senior_architect')}} </div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -40,6 +42,7 @@
             <div class="caption">
                 <div class="name">Alexander Kavelashvili</div>
                 <div class="pos">{{__('client.chief_surveyor')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -49,6 +52,7 @@
             <div class="caption">
                 <div class="name">Anzor Mamrashi </div>
                 <div class="pos">{{__('client.head_of_surveying_service')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -58,6 +62,7 @@
             <div class="caption">
                 <div class="name">Tina Bokuchava</div>
                 <div class="pos">{{__('client.architect')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -67,6 +72,7 @@
         <div class="caption">
             <div class="name">Mikheil Mashentsev</div>
             <div class="pos">{{__('client.deputy_head_surveying')}}</div>
+            <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
         </div>
     </div>
     </a>
@@ -76,6 +82,7 @@
             <div class="caption">
                 <div class="name">Mariam Akhalaia</div>
                 <div class="pos">{{__('client.interior_designer')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -85,6 +92,7 @@
             <div class="caption">
                 <div class="name">Maka Mzhavanadze </div>
                 <div class="pos">{{__('client.chief_engineer')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -94,6 +102,7 @@
             <div class="caption">
                 <div class="name">Nodar Khorbaladze</div>
                 <div class="pos">{{__('client.chief_surveyor')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -103,6 +112,7 @@
             <div class="caption">
                 <div class="name">Tornike Panchvdze </div>
                 <div class="pos">{{__('client.highway_engineer')}}</div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>
@@ -112,6 +122,7 @@
             <div class="caption">
                 <div class="name">George Ebanoidze</div>
                 <div class="pos">{{__('client.senior_engineer')}} </div>
+                <div class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis eveniet sapiente hic aliquid.</div>
             </div>
         </div>
     </a>

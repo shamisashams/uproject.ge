@@ -354,6 +354,13 @@ img {
     width: 80px;
 }
 
+.comingsoon {
+    font-size: 33px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
 /* header */
 .header {
     position: fixed;
@@ -679,9 +686,16 @@ img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: -1;
+    z-index: -3;
 }
-
+.service_boxes .service_box::after {
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.411);
+    z-index: -2;
+}
 .service_boxes .service_box span {
     position: absolute;
     display: block;
@@ -722,6 +736,7 @@ img {
 .service_boxes .service_box .text2 {
     font-size: 20px;
     font-weight: bold;
+    color: #fff;
 }
 
 .service_boxes .service_box .plus {
@@ -765,6 +780,7 @@ img {
 
 .who_we_are .poppins {
     margin-bottom: 137px;
+    text-align: justify;
 }
 
 /* project count home */
@@ -960,6 +976,11 @@ img {
     left: auto;
     right: 84px;
 }
+#next_team {
+    transform: rotate(180deg);
+    left: auto;
+    right: 84px;
+}
 
 .blog_home .blog_slider {
     margin: 0 -10px;
@@ -1000,6 +1021,10 @@ img {
 }
 
 /* team home */
+.team_home {
+    position: relative;
+    padding-bottom: 20px;
+}
 .team_home .team_list {
     margin: 0 -10px;
 }
@@ -1149,8 +1174,12 @@ img {
 .team_grid .img_overlay .caption .pos {
     font-size: 14px;
     color: #dcdcdc;
+    margin-bottom: 7px;
 }
-
+.team_grid .img_overlay .caption .info {
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.87);
+}
 /* about.html */
 .about_page .text {
     max-width: 626px;
@@ -1184,6 +1213,7 @@ img {
     margin-bottom: 24px;
     line-height: 28px;
     position: relative;
+    text-align: justify;
 }
 .about_page .text .li {
     padding-left: 20px;
@@ -1356,13 +1386,13 @@ img {
 /* projects.html */
 .projects_page .project_grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 20px;
     margin-bottom: 30px;
 }
 
 .projects_page .project_grid .img_overlay {
-    height: 360px;
+    height: 300px;
 }
 
 .projects_page .project_grid .img_overlay img {
@@ -1853,6 +1883,9 @@ img {
     .blog_home #next_blog {
         right: 15px;
     }
+    #next_team {
+        right: 15px;
+    }
 
     .blog_home .arr {
         left: 15px;
@@ -1866,6 +1899,9 @@ img {
     }
 
     .blog_home #next_blog {
+        right: 40px;
+    }
+    #next_team {
         right: 40px;
     }
 
@@ -1937,19 +1973,6 @@ img {
 
     .gallery_grid .g_item {
         height: 300px;
-    }
-
-    .team_home .team_list {
-        margin: 0;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-    }
-
-    .team_home .team_list .img_overlay {
-        max-height: 450px;
-        width: 100%;
-        margin: 0;
     }
 }
 
@@ -2191,12 +2214,6 @@ img {
     .project_view_page .flex .div {
         max-width: 55%;
         margin-left: 20px;
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .projects_page .project_grid .img_overlay {
-        height: 280px;
     }
 }
 
