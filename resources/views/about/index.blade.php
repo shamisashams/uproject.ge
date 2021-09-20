@@ -8,11 +8,11 @@
                 <div class="title_bg bold">{{__('client.about_us')}}</div>
                 <div class="title bold white">{{__('client.about_us')}}</div>
             </div>
-            <div class="paragraph dc">
+            <!-- <div class="paragraph dc">
                 {{__('client.')}}In publishing and graphic design, Lorem ipsum is a placeholder text
                 commonly used to demonstrate the visual form of a document or a
                 typeface without relying on meaningful content.
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -35,11 +35,20 @@
             <div class="para">
                 {{__('client.about_content1_p2')}}
             </div>
-            <div class="para li">
+            <div class="para">
                 {{__('client.about_content1_p2_1')}}
             </div>
             <div class="para li">
-                {{__('client.about_content1_p2_2')}}
+                {{__('client.about_content1_p2_1_bullet_1')}}
+            </div>
+            <div class="para li">
+                {{__('client.about_content1_p2_1_bullet_2')}}
+            </div>
+            <div class="para li">
+                {{__('client.about_content1_p2_1_bullet_3')}}
+            </div>
+            <div class="para li">
+                {{__('client.about_content1_p2_1_bullet_4')}}
             </div>
         </div>
     </div>

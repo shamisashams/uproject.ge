@@ -2,10 +2,10 @@
 
  namespace App\Http\Controllers\Admin;
 
+ use App\Http\Requests\BlogRequest;
  use App\Repositories\BlogRepositoryInterface;
  use App\Http\Controllers\Controller;
  use Illuminate\Http\Request;
- use App\Http\Requests\Admin\BlogRequest;
 
  class BlogController extends Controller
  {
@@ -112,4 +112,3 @@
      }
 
  }
- 

@@ -8,9 +8,9 @@
                 <div class="title_bg bold">{{__('client.our_team')}}</div>
                 <div class="title bold white">{{__('client.our_team')}}</div>
             </div>
-            <div class="paragraph dc">
+            <!-- <div class="paragraph dc">
             {{__('client.team_showcase_para')}}
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
@@ -18,9 +18,27 @@
 <section class="team_page wrapper team_grid margin_bottom">
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
+            <img src="../img/team/10.png" alt="" />
+            <div class="caption">
+                <div class="name">George Tsimakuridze </div>
+                <div class="pos">{{__('client.technical_manager')}}</div>
+            </div>
+        </div>
+    </a>
+    <a href="{{ route('teamView',app()->getLocale()) }}">
+        <div class="img_overlay">
+            <img src="../img/team/3.png" alt="" />
+            <div class="caption">
+                <div class="name">Vakho Tabatadze</div>
+                <div class="pos">{{__('client.senior_architect')}} </div>
+            </div>
+        </div>
+    </a>
+    <a href="{{ route('teamView',app()->getLocale()) }}">
+        <div class="img_overlay">
             <img src="../img/team/1.png" alt="" />
             <div class="caption">
-                <div class="name">Alexandre Kavelashvili</div>
+                <div class="name">Alexander Kavelashvili</div>
                 <div class="pos">{{__('client.chief_surveyor')}}</div>
             </div>
         </div>
@@ -36,19 +54,10 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/3.png" alt="" />
-            <div class="caption">
-                <div class="name">Vakho Tabatadze</div>
-                <div class="pos">{{__('client.architect')}} </div>
-            </div>
-        </div>
-    </a>
-    <a href="{{ route('teamView',app()->getLocale()) }}">
-        <div class="img_overlay">
-            <img src="../img/team/4.png" alt="" />
+            <img src="../img/team/სს.png" alt="" />
             <div class="caption">
                 <div class="name">Tina Bokuchava</div>
-                <div class="pos">{{__('client.junior_architect')}}</div>
+                <div class="pos">{{__('client.architect')}}</div>
             </div>
         </div>
     </a>
@@ -56,7 +65,7 @@
         <div class="img_overlay">
         <img src="../img/team/5.png" alt="" />
         <div class="caption">
-            <div class="name">Mikheil Ashentsev</div>
+            <div class="name">Mikheil Mashentsev</div>
             <div class="pos">{{__('client.deputy_head_surveying')}}</div>
         </div>
     </div>
@@ -74,7 +83,7 @@
         <div class="img_overlay">
             <img src="../img/team/7.png" alt="" />
             <div class="caption">
-                <div class="name">Maka Mdzhavanadze </div>
+                <div class="name">Maka Mzhavanadze </div>
                 <div class="pos">{{__('client.chief_engineer')}}</div>
             </div>
         </div>
@@ -99,18 +108,9 @@
     </a>
     <a href="{{ route('teamView',app()->getLocale()) }}">
         <div class="img_overlay">
-            <img src="../img/team/10.png" alt="" />
-            <div class="caption">
-                <div class="name">Giorgi Tsimakuridze </div>
-                <div class="pos">{{__('client.technical_manager')}}</div>
-            </div>
-        </div>
-    </a>
-    <a href="{{ route('teamView',app()->getLocale()) }}">
-        <div class="img_overlay">
             <img src="../img/team/11.png" alt="" />
             <div class="caption">
-                <div class="name">Giorgi Ebanoidze</div>
+                <div class="name">George Ebanoidze</div>
                 <div class="pos">{{__('client.senior_engineer')}} </div>
             </div>
         </div>

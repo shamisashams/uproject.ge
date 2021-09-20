@@ -8,16 +8,17 @@
                 <div class="title_bg bold">{{__('client.projects')}}</div>
                 <div class="title bold white">{{__('client.projects')}}</div>
             </div>
-            <div class="paragraph dc">
+            <!-- <div class="paragraph dc">
             {{__('client.projects_showcase_para')}}
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
 
 <section class="projects_page wrapper">
     <div class="project_grid">
-    <a href="{{route('projectDetails',app()->getLocale())}}">
+        <h1>Under Development...</h1>
+    <!-- <a href="{{route('projectDetails',app()->getLocale())}}">
           <div class="img_overlay">
             <img src="../img/projects/1/1.png" alt="" />
             <div class="caption">
@@ -25,7 +26,7 @@
               <div class="date">{{__('client.year')}}: 2018</div>
             </div>
           </div>
-        </a>
+        </a> -->
     </div>
 {{--    <div class="paginations flex center margin_bottom">--}}
 {{--        <button class="page_number medium flex center main_blue active">--}}
