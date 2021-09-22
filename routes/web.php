@@ -36,6 +36,9 @@
      Route::get('/projects', function () {
          return view('projects/index');
      })->name('projects');
+     Route::get('/services', function () {
+         return view('services/index');
+     })->name('services');
 
      Route::get('/projects/details', function () {
          return view('projects/details');

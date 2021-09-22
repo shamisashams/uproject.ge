@@ -290,6 +290,11 @@ img {
     background-position: center;
     background-size: cover;
 }
+.main_showcases.service {
+    background: url(/img/showcases/5.png) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .paginations .page_number {
     position: relative;
@@ -1577,6 +1582,16 @@ img {
     font-size: 16px;
 }
 
+/* service page */
+.services_page .title {
+    margin-bottom: 30px;
+    max-width: 570px;
+}
+.services_page .title .bold {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
 /*///////////////////////////// Responsive /////////////////////////////*/
 
 /* general */
@@ -2320,6 +2335,13 @@ img {
 
     .quote_box img {
         width: 42px;
+    }
+    .service_boxes {
+        grid-gap: 11px;
+    }
+    .services_page .title .bold {
+        font-size: 24px;
+        margin-bottom: 11px;
     }
 }
 
