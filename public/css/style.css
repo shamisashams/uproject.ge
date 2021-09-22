@@ -1039,6 +1039,10 @@ img {
     height: 100%;
     object-fit: cover;
 }
+.team_home .arr {
+    top: auto;
+    bottom: -40px;
+}
 
 /* footer */
 .footer {
