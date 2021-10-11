@@ -2571,3 +2571,13 @@ img {
         margin-left: 17px;
     }
 }
+@media screen and (max-width: 1640px) {
+    .hero_section .hero_content .text_bg {
+        margin-left: -10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .hero_section .hero_content .text_bg {
+        margin-left: 0px;
+    }
+}
