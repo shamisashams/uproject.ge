@@ -120,19 +120,15 @@
             </a>
         </div>
          <button id="menu_btn"></button>
-       <!-- <div class="languages red_bg part flex center">
+       <div class="languages red_bg part flex center">
             <img src="/storage/images/icons/header/5.png" alt=""/>
             <div class="dropdown">
                 <a class="lang {{ app()->getLocale() == 'en' ? 'on': '' }}"
                    href="/{{'en'.substr(request()->path(), 2)}}">ENG</a>
-                <a class="lang {{ app()->getLocale() == 'ru' ? 'on': '' }}"
-                   href="/{{'ru'.substr(request()->path(), 2)}}">RUS</a>
                 <a class="lang {{ app()->getLocale() == 'ge' ? 'on': '' }}"
                    href="/{{'ge'.substr(request()->path(), 2)}}">GEO</a>
-                <a class="lang {{ app()->getLocale() == 'fr' ? 'on': '' }}"
-                   href="/{{'fr'.substr(request()->path(), 2)}}">FRA</a>
             </div>
-        </div> -->
+        </div>
     </div>
 </header>
 
